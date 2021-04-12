@@ -1,0 +1,33 @@
+{
+    "version": "2.3.0-beta.5",
+    "description": "Image uploader/manager",
+    "homepage": "https://picgo.github.io/PicGo-Doc/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.5/PicGo-Setup-2.3.0-beta.5.exe#/dl.7z",
+            "hash": "sha512:7FB58ECEC8E700546AB4DF0F7E2AAB2734ADBE346F5D8A5D9D8370EAC59ED847C56D873E972C1030F2E1EE1A7B6C9F52D6697F14EDCF4617DBE679F7BD634465",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        }
+    },
+    "bin": "PicGo.exe",
+    "shortcuts": [["PicGo.exe", "PicGo"]],
+    "checkver": {
+        "url": "https://github.com/Molunerfinn/PicGo/releases",
+        "regex": "/PicGo-Setup-([\\d.]+)-beta.([\\d])\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}
