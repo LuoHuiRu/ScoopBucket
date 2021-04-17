@@ -1,11 +1,11 @@
 {
-    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
+    "version": "0.15.3",
     "description": "A Windows/macOS GUI based on Clash",
-    "version": "0.15.2",
+    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.2/Clash.for.Windows-0.15.2-win.7z",
-            "hash": "sha512:81E0BEA6330745957521A6077FFBD0F1223F83C9E0BFA0DA103783716D0F4CF1C03954B232F41529D72CC3E9BA6C92B80404B2327927A8ADD5E7C1561961673F"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.3/Clash.for.Windows-0.15.3-win.7z",
+            "hash": "75857bb7d209f556030f5dc631a593a2bf5f250c4c6c11241d78770f0ddd75b2"
         }
     },
     "shortcuts": [
@@ -19,7 +19,22 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z"
+            },
+            "hash": {
+                "url": "$baseurl/sha256sum",
+                "mode": "extract",
+                "regex": "^exe: $sha256"
             }
         }
-    }
+    },
+    "persist": [
+        [
+            "data\\profiles",
+            "profiles"
+        ],
+        [
+            "data\\cfw-settings.yaml",
+            "cfw-settings.yaml"
+        ]
+    ]
 }
