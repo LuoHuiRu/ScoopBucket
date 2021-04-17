@@ -67,6 +67,6 @@
         "}"
     ],
     "bin": ["bin\\code-insiders.cmd", "vscode"],
-    "shortcuts": [["Code - Insiders.exe", "Visual Studio Code - Insiders"]],
+    "shortcuts": [["Code - Insiders.exe", "VS Code - Insiders"]],
     "persist": "data"
 }
