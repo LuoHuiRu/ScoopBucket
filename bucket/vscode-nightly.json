@@ -66,7 +66,7 @@
         "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
         "}"
     ],
-    "bin": [["bin\\code-insiders.cmd","vscode"]],
+    "bin": [["bin\\code-insiders","vscode"],["bin\\code-insiders.cmd","vscode.cmd"]],
     "shortcuts": [["Code - Insiders.exe", "VS Code - Insiders"]],
     "persist": "data"
 }
