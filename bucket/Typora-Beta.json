@@ -1,0 +1,60 @@
+{
+    "version": "0.9.98",
+    "homepage": "https://typora.io/",
+    "license": "http://support.typora.io/License-Agreement/",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://typora.io/windows/typora-setup-x64.exe",
+                "https://github.com/LuoHuiRu/ScoopBucket/blob/master/scripts/Typora/typora-install-context.reg",
+                "https://github.com/LuoHuiRu/ScoopBucket/blob/master/scripts/Typora/typora-uninstall-context.reg"
+            ],
+            "hash": [
+                "7d9683a2b11d720c1cc54cb1592514447503ceb8b5bbd014e780fb289cc0a688",
+                "D0E41291EE260B461B295C4C042F4694E0CB87AF39B3134CA067C8F53B4DCE9F",
+                "F33D07098FEEA7D31645132105AD6A4F726ADA26F646E836157F48DA09451B4C"
+            ]
+        }
+    },
+    "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/CLOSEAPPLICATIONS",
+            "/GROUP=typora",
+            "/DIR=$dir",
+            "/LOG=$dir/install.log"
+        ]
+    },
+    "post_install": [
+        "if (Test-Path \"$dir\\typora-install-context.reg\") {",
+        "  $typorapath = \"$dir\\Typora.exe\".Replace('\\', '\\\\')",
+        "  $content = Get-Content \"$dir\\typora-install-context.reg\"",
+        "  $content = $content.Replace('$typora', $typorapath)",
+        "  $content | Set-Content -Path \"$dir\\typora-install-context.reg\"",
+        "}"
+    ],
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": "/VERYSILENT"
+    },
+    "bin": "Typora.exe",
+    "shortcuts": [["Typora.exe", "Typora"]],
+    "persist": "data",
+    "checkver": {
+        "url": "https://typora.io/windows/dev_release.html",
+        "regex": "<h4>([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://typora.io/windows/typora-setup-x64.exe"
+            },
+            "32bit": {
+                "url": "https://typora.io/windows/typora-setup-ia32.exe"
+            }
+        }
+    }
+}
