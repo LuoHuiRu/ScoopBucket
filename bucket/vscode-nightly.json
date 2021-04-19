@@ -19,11 +19,7 @@
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
-            "hash": [
-                "2bb3b9363787f01a48d8b5dd59fc40dc633cc281a2bf6ebba5e47b9c2b44127c",
-                "2427462F9955D9C8C47AC685212DE9BD50D758876F649C6925C1C46E473B9AC7",
-                "CD5BE0CA47075403CF8F6119DABA4967D320FC64A86230D1F11FD7ED2A8E27A3"
-            ]
+            "hash": ["2bb3b9363787f01a48d8b5dd59fc40dc633cc281a2bf6ebba5e47b9c2b44127c"]
         }
     },
     "checkver": {
