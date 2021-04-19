@@ -17,7 +17,7 @@
     "shortcuts": [["PicGo.exe", "PicGo"]],
     "checkver": {
         "url": "https://github.com/Molunerfinn/PicGo/releases",
-        "regex": "/PicGo-Setup-([\\d.]+)-beta.([\\d])\\.exe"
+        "regex": "/PicGo-Setup-([\\d.]+-beta\\.[\\d])\\.exe"
     },
     "autoupdate": {
         "architecture": {
