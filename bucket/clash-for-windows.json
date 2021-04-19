@@ -22,5 +22,5 @@
             }
         }
     },
-    "persist": ["profiles", "cfw-settings.yaml"]
+    "persist": ["profiles", "cfw-settings.yaml", "clash_win"]
 }
