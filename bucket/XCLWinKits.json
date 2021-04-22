@@ -1,13 +1,16 @@
 {
+    "status": "False",
     "version": "5_0_9",
-    "description": "这是一个非常实用的小软件，里面包含了许多常用的小功能。在电脑没有安装Office等软件的情况下，支持对Word文档、Excel文档、Pdf文档、HTML文档、Txt文档等内容的批量修改与替换。同时支持对所有文件的名称和扩展名的批量修改，您不需要再安装额外的处理软件。另一个实用的功能是支持对Word文档、Excel文档、Pdf文档、HTML文档、Txt文本文档的格式相互批量转换，也支持将图片批量转为Word/Pdf/Excel等格式.",
+    "description": "这是一个非常实用的小软件，里面包含了许多常用的小功能。",
     "homepage": "https://www.wodeabc.com/article/show/8002027",
     "license": "None",
     "architecture": {
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-5_0_9.exe",
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-5_0_9.exe#/dl.7z",
             "hash": "F24DA4361DF898BF42BCE5C0A5E25CEC96962C92BE1748E52DD038628EF0305D"
         }
     },
-    "shortcuts": [["wodeabc.exe", "XCLWinKits"]]
+    "bin": "wodeabc.exe",
+    "shortcuts": [["wodeabc.exe", "XCLWinKits"]],
+    "persist": "data"
 }
