@@ -1,11 +1,11 @@
 {
-    "version": "1.4-573",
+    "version": "1.4-574",
     "description": "Enabling communication between all your devices. Made for people like you.",
     "homepage": "https://kdeconnect.kde.org/",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/lastSuccessfulBuild/artifact/kdeconnect-kde-1.4-573-windows-msvc2019_64-cl.7z",
-            "hash": "4dfece684badef4dcd80b405b8b33eb59cf56f73a0a1b171405eac19e7c781cb"
+            "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/lastSuccessfulBuild/artifact/kdeconnect-kde-1.4-574-windows-msvc2019_64-cl.7z",
+            "hash": "4815bc3ba589649362bb025da3b6b27e3cca78d7f7688a1b8dcaa619c38990c7"
         }
     },
     "bin": "bin\\kdeconnect-indicator.exe",
