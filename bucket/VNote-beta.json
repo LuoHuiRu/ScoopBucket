@@ -11,11 +11,14 @@
     },
     "bin": "vnote.exe",
     "shortcuts": [["vnote.exe", "VNote"]],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/vnotex/vnote/releases",
+        "regex": "/vnote-win-x64_v([\\d.]+-beta\\.[\\d]+)\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vnotex/vnote/releases/download/v$version/vnote-win-x64_$version.zip"
+                "url": "https://github.com/vnotex/vnote/releases/download/v$version/vnote-win-x64_v$version.zip"
             }
         }
     }
