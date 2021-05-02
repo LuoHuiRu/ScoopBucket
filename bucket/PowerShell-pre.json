@@ -9,7 +9,7 @@
             "hash": "BF3E8343DC75D79B1FFEFB488A5BEB36596612A05EDEA68A7F4173D863BAE3EE"
         }
     },
-    "bin": [["pwsh.exe", "pwsh-pre.exe"]],
+    "bin": [["pwsh.exe", "pwsh-pre"]],
     "shortcuts": [["pwsh.exe", "PowerShell Preview"]],
     "checkver": {
         "url": "https://github.com/PowerShell/PowerShell/releases",
