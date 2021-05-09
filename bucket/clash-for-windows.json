@@ -8,12 +8,7 @@
             "hash": "4530706e538707fb631a8f186eeb62ef0372e73c70a731d18cae4f7e49608232"
         }
     },
-    "shortcuts": [
-        [
-            "Clash for Windows.exe",
-            "Clash for Windows"
-        ]
-    ],
+    "shortcuts": [["Clash for Windows.exe", "Clash for Windows"]],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -26,10 +21,5 @@
                 "regex": "^exe: $sha256"
             }
         }
-    },
-    "persist": [
-        "profiles",
-        "cfw-settings.yaml",
-        "clash_win"
-    ]
+    }
 }
