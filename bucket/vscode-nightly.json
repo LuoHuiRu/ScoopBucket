@@ -14,14 +14,13 @@
     ],
     "architecture": {
         "64bit": {
-            "url": [
-                "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
-                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
-            ],
-            "hash": "3e95ba30bc80b6c41d6df82c2aa470b4fd2f33287c24533db31aae5018b681b4"
+            "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+            "hash": "193bb41c2bb4ac563dad3f117ca6eeca231ab5726c4751bfb8229359851e3aa7"
         }
     },
+    "bin": [["bin\\code-insiders.cmd", "code"]],
+    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
+    "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
         "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].productVersion"
@@ -30,7 +29,7 @@
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z"
+                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider"
             }
         },
         "hash": {
@@ -38,38 +37,5 @@
             "mode": "json",
             "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
         }
-    },
-    "post_install": [
-        "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
-        "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
-        "  $content = Get-Content \"$dir\\vscode-install-context.reg\"",
-        "  $content = $content.Replace('$code', $codepath)",
-        "  $content = $content.Replace('&Code', 'Code &Insiders')",
-        "  if ($global) {",
-        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "  }",
-        "  $content | Set-Content -Path \"$dir\\vscode-install-context.reg\"",
-        "}",
-        "if (Test-Path \"$dir\\vscode-uninstall-context.reg\") {",
-        "  $content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
-        "  $content = $content.Replace('&Code', 'Code &Insiders')",
-        "  if ($global) {",
-        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "  }",
-        "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
-        "}"
-    ],
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "vscode"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "VS Code - Insiders"
-        ]
-    ],
-    "persist": "data"
+    }
 }
