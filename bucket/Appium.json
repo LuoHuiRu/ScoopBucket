@@ -1,0 +1,21 @@
+{
+    "version": "1.21.0",
+    "description": "Test automation framework for use with native, hybrid and mobile web apps.",
+    "homepage": "http://appium.io/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/appium/appium-desktop/releases/download/v1.21.0/Appium-windows-1.21.0.zip",
+    "hash": "19a4d6112a26318ebf09c515edbf21c029c0b4728116b968e922ff731366be0b",
+    "shortcuts": [
+        [
+            "Appium.exe",
+            "Appium"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/appium/appium-desktop/releases",
+        "regex": "Appium-windows-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/appium/appium-desktop/releases/download/v$version/Appium-windows-$version.zip"
+    }
+}
