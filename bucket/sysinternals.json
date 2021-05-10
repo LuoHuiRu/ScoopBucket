@@ -1,0 +1,36 @@
+{
+    "version": "2021.March.23",
+    "description": "A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment.",
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
+    },
+    "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+    "hash": "2904c612e162a98938f3308bb9f663f24351c23802663992a47804bc6d54b363",
+    "checkver": {
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+        "regex": "\\bUpdated:\\s*(\\w+)\\s+(\\d+),\\s+(\\d+)\\b",
+        "replace": "${3}.${1}.${2}"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip"
+    },
+    "architecture": {
+        "64bit": {
+            "bin": [["Autoruns64.exe", "Autoruns"], "DiskView.exe"],
+            "shortcuts": [
+                [
+                    "autoruns64.exe",
+                    "SysInternals/Autoruns - View startup programs and processes",
+                    "/accepteula"
+                ],
+                [
+                    "DiskView.exe",
+                    "SysInternals/DiskView - Graphical disk sector utility",
+                    "/accepteula"
+                ]
+            ]
+        }
+    }
+}
