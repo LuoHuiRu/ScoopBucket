@@ -1,13 +1,18 @@
 {
-    "version": "0.3.7",
+    "version": "0.3.9",
     "description": "高颜值的第三方网易云播放器",
     "homepage": "https://github.com/qier222/YesPlayMusic",
     "license": {
         "identifier": "MIT"
     },
-    "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.3.7/YesPlayMusic-0.3.7.exe#/YesPlayMusic.exe",
-    "hash": "8ce6dd900d00bee036f047363eceb9738154c1af178f7093c4c32d5c4a9507a3",
-    "shortcuts": [["YesPlayMusic.exe", "YesPlayMusic"]],
+    "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.3.9/YesPlayMusic-0.3.9.exe#/YesPlayMusic.exe",
+    "hash": "3e2df06631089d62d641b0674eb530082cbe1f15cbc54ea78b55a9edf55ead74",
+    "shortcuts": [
+        [
+            "YesPlayMusic.exe",
+            "YesPlayMusic"
+        ]
+    ],
     "uninstaller": {
         "script": "Remove-Item -Path $env:APPDATA\\YesPlayMusic -Recurse"
     },
