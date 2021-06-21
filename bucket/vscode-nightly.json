@@ -14,22 +14,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider",
+            "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
             "hash": "9dcf270e0af2d1104026b3d71990dbd560d135f78685831fe18d7ae2420119ab"
         }
     },
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "code"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Code - Insiders"
-        ]
-    ],
+    "bin": [["bin\\code-insiders.cmd", "code"]],
+    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
