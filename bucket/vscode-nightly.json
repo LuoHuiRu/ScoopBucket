@@ -15,7 +15,7 @@
     "architecture": {
         "64bit": {
             "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
-            "hash": "9dcf270e0af2d1104026b3d71990dbd560d135f78685831fe18d7ae2420119ab"
+            "hash": "340a69c0d478dcd98b3367ce896e3629a39344b337c6715fea5ca4ec21802f55"
         }
     },
     "bin": [["bin\\code-insiders.cmd", "code"]],
