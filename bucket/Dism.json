@@ -16,7 +16,7 @@
             ]
         }
     },
-    "bin": [["DISM++x64.exe", "Dism"]],
+    "bin": [["DISM++x64.exe", "Dism2plus"]],
     "shortcuts": [["DISM++x64.exe", "DISM++"]],
     "persist": "Config",
     "checkver": {
