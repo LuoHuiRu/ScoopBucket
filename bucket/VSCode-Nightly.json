@@ -14,12 +14,40 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
-            "hash": "9d277249d979545aeddcca765e5816c474793b7ba594c7ead4cd8dca913779ca"
+            "url": [
+                "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
+            ],
+            "hash": [
+                "9d277249d979545aeddcca765e5816c474793b7ba594c7ead4cd8dca913779ca",
+                "2427462F9955D9C8C47AC685212DE9BD50D758876F649C6925C1C46E473B9AC7",
+                "CD5BE0CA47075403CF8F6119DABA4967D320FC64A86230D1F11FD7ED2A8E27A3"
+            ]
         }
     },
     "bin": [["bin\\code-insiders.cmd", "code"]],
     "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
+    "post_install": [
+        "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
+        "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
+        "  $content = Get-Content \"$dir\\vscode-install-context.reg\"",
+        "  $content = $content.Replace('$code', $codepath)",
+        "  $content = $content.Replace('&Code', 'Code &Insiders')",
+        "  if ($global) {",
+        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "  }",
+        "  $content | Set-Content -Path \"$dir\\vscode-install-context.reg\"",
+        "}",
+        "if (Test-Path \"$dir\\vscode-uninstall-context.reg\") {",
+        "  $content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
+        "  $content = $content.Replace('&Code', 'Code &Insiders')",
+        "  if ($global) {",
+        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "  }",
+        "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
+        "}"
+    ],
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
@@ -29,13 +57,13 @@
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider"
+                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "mode": "json",
+                    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+                }
             }
-        },
-        "hash": {
-            "url": "https://code.visualstudio.com/sha?build=insider",
-            "mode": "json",
-            "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
         }
     }
 }
