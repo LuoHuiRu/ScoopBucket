@@ -1,5 +1,5 @@
 {
-    "version": "1.59.0-insider",
+    "version": "1.60.0-insider",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -20,14 +20,24 @@
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "9d277249d979545aeddcca765e5816c474793b7ba594c7ead4cd8dca913779ca",
+                "7338ca4c5d8249f0fda66582d33bc495212704e289424c9a0403b402f6c7fbcc",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
         }
     },
-    "bin": [["bin\\code-insiders.cmd", "code"]],
-    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
+    "bin": [
+        [
+            "bin\\code-insiders.cmd",
+            "code"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Code - Insiders.exe",
+            "Code - Insiders"
+        ]
+    ],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
