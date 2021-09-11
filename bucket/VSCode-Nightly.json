@@ -1,5 +1,5 @@
 {
-    "version": "1.60.0-insider",
+    "version": "1.61.0-insider",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -20,24 +20,14 @@
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "7338ca4c5d8249f0fda66582d33bc495212704e289424c9a0403b402f6c7fbcc",
+                "35251b88028a27da60817a158b53c1d52569eb5f6c3aa75ab053a4f6aee4ac9f",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
         }
     },
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "code"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Code - Insiders"
-        ]
-    ],
+    "bin": [["bin\\code-insiders.cmd", "code"]],
+    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
@@ -67,7 +57,7 @@
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider",
+                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "mode": "json",
