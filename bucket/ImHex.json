@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "Hex editor",
     "homepage": "https://github.com/WerWolv/ImHex",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WerWolv/ImHex/releases/download/v1.9.0/Windows.Portable.ZIP.zip",
-            "hash": "2b907bb4f182164f37d09cec1066a4be7425d31e3426d480a4cc9d503c45610c"
+            "url": "https://github.com/WerWolv/ImHex/releases/download/v1.10.0/Windows.Portable.ZIP.zip",
+            "hash": "d8158a184f483451b5b6e71b03e4db22f48ca22fb79525b81c52a0a5e73d03dd"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\imgui.ini\")) { New-Item \"$dir\\imgui.ini\" | Out-Null }",
