@@ -1,8 +1,8 @@
 {
     "version": "1.10.0",
-    "description": "Hex editor",
+    "description": "A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
     "homepage": "https://github.com/WerWolv/ImHex",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/WerWolv/ImHex/releases/download/v1.10.0/Windows.Portable.ZIP.zip",
