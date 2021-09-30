@@ -1,0 +1,13 @@
+{
+    "version": "1.1.0.19",
+    "description": "Everything 命令行接口.",
+    "homepage": "https://www.voidtools.com",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.voidtools.com/ES-1.1.0.19.zip",
+            "hash": "5A70E0056070ADEBD6CA422F9FB28079E652EACE8C793E12CB823C09A9E1875E"
+        }
+    },
+    "bin": "es.exe"
+}
