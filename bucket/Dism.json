@@ -5,15 +5,8 @@
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1001.10/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip",
-                "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1001.10/wsusscn3.cab"
-            ],
-
-            "hash": [
-                "sha1:d4ba4eb035254b3326d6adc6638bc9c8daea7018",
-                "sha1:DBC61DE0C8B077655F780BF9EDF103888B3CC2AD"
-            ]
+            "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1001.10/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip",
+            "hash": ["sha1:d4ba4eb035254b3326d6adc6638bc9c8daea7018"]
         }
     },
     "bin": [["DISM++x64.exe", "Dism2plus"]],
@@ -24,10 +17,7 @@
         "regex": "/Dism\\+\\+([\\d\\.]+)_(?<sha1>[a-fA-F0-9]{40})\\.zip"
     },
     "autoupdate": {
-        "url": [
-            "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version_$matchSha1.zip",
-            "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/wsusscn3.cab"
-        ],
+        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version_$matchSha1.zip",
         "hash": "sha1:$matchSha1"
     }
 }
