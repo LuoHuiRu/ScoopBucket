@@ -1,0 +1,30 @@
+{
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.4/PowerShell-7.1.4-win-x64.zip#/dl.7z",
+            "hash": "ec5792d74eae88601d20734c857212920135aa5899823dcaf1c0143daedd8108"
+        }
+    },
+    "bin": "pwsh.exe",
+    "shortcuts": [["pwsh.exe", "PowerShell"]],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
+                    "regex": "$basename\\s*<ul>\\s*<li>$sha256"
+                },
+                "hash2": {
+                    "url": "$baseurl/sha256.txt",
+                    "regex": "$base64\\s+\\./xray_windows_amd64.exe.zip"
+                }
+            }
+        }
+    }
+}
