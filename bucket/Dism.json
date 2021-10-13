@@ -1,23 +1,37 @@
 {
-    "version": "10.1.1001.10",
+    "version": "10.1.1002.1",
     "description": "A gatis Windows utility similar to DISM, but with a GUI and based on CBS",
     "homepage": "https://www.chuyu.me",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1001.10/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip",
-            "hash": "sha1:d4ba4eb035254b3326d6adc6638bc9c8daea7018"
+            "url": [
+                "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.1/Dism++10.1.1002.1.zip",
+                "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.1/wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab"
+            ],
+            "hash": [
+                "bd782ba834a77661db0b272c00afd5377404b23cb26783507ded145f4c72f9a6",
+                "md5:b631990263fda2ce41c902e9bc8a2bbf"
+            ]
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Config\\Config.ini\")) {",
+        "    New-Item \"$dir\\Config\\Config.ini\" | Out-Null",
+        "}"
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\Config\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\")) {",
+        "    Move-Item -Path \"$dir\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\" -Destination \"$dir\\Config\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab | Out-Null",
+        "}"
+    ],
     "bin": [["DISM++x64.exe", "Dism2plus"]],
     "shortcuts": [["DISM++x64.exe", "DISM++"]],
-    "persist": "Config",
-    "checkver": {
-        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases",
-        "regex": "/Dism\\+\\+([\\d\\.]+)_(?<sha1>[a-fA-F0-9]{40})\\.zip"
-    },
+    "persist": "Config\\Config.ini",
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version_$matchSha1.zip",
-        "hash": "sha1:$matchSha1"
+        "64bit": {
+            "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version.zip"
+        }
     }
 }
