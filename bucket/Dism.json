@@ -22,7 +22,7 @@
     ],
     "post_install": [
         "if (!(Test-Path \"$dir\\Config\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\")) {",
-        "    Move-Item -Path \"$dir\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\" -Destination \"$dir\\Config\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab | Out-Null",
+        "    Move-Item -Path \"$dir\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\" -Destination \"$dir\\Config\\wsusscn3_b631990263fda2ce41c902e9bc8a2bbf.cab\" | Out-Null",
         "}"
     ],
     "bin": [["DISM++x64.exe", "Dism2plus"]],
