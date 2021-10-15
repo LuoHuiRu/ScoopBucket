@@ -1,7 +1,7 @@
 {
     "version": "10.1.1002.1",
     "description": "A gatis Windows utility similar to DISM, but with a GUI and based on CBS",
-    "homepage": "https://www.chuyu.me",
+    "homepage": "https://github.com/Chuyu-Team/Dism-Multi-language",
     "license": "Unknown",
     "architecture": {
         "64bit": {
