@@ -1,16 +1,21 @@
 {
-    "version": "3.7.0",
+    "version": "3.8.1",
     "description": "A pleasant note-taking platform",
     "homepage": "https://github.com/vnotex/vnote",
     "license": "GNU LGPLv3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vnotex/vnote/releases/download/v3.0.0-beta.11/vnote-win-x64_v3.7.0.zip",
-            "hash": "F665F9C9532FAE1FDC12C52F27AC7837B8073E53633E9261FF4D329E325F89FD"
+            "url": "https://github.com/vnotex/vnote/releases/download/v3.8.1/vnote-win-x64_v3.8.1.zip",
+            "hash": "a9d179c606f1aea9fdc95691cf994c9a3732fa5604efc4ac7aea8de81b11b5f8"
         }
     },
     "bin": "vnote.exe",
-    "shortcuts": [["vnote.exe", "VNote"]],
+    "shortcuts": [
+        [
+            "vnote.exe",
+            "VNote"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
