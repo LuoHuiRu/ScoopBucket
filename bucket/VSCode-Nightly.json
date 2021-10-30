@@ -1,5 +1,5 @@
 {
-    "version": "1.62.0-insider",
+    "version": "ff1e16eebb93af79fd6d7af1356c4003a120c563",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -20,7 +20,7 @@
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "d82f428d0b9455a62ad76d8544084cc5fb5f61e7acd287108681ee250b527275",
+                "9c436a0a837ad4e0301af1703b671943dfa18ac7dc464a9c49d7233b2179d0b3",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
@@ -61,13 +61,13 @@
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
-        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].productVersion"
+        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].version"
     },
     "autoupdate": {
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+                "url": "https://az764295.vo.msecnd.net/insider/$version/VSCode-win32-x64-1.62.0-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "mode": "json",
