@@ -1,17 +1,27 @@
 {
-    "version": "8.2.8.0",
+    "version": "8.2.8.2",
     "description": "Image uploader/manager",
     "homepage": "https://github.com/YerongAI/Office-Tool",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.2.8.0/Office_Tool_v8.2.8.0.zip",
-            "hash": "7958145287c07fcfff996a70d76e1e81e2a2ecd77b082e73638fec738ef585b8",
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.2.8.2/Office_Tool_v8.2.8.2.zip",
+            "hash": "655a5ecf874acb86cf9541f8df161146c86b3df57ba9c674d635fde4a6593c04",
             "extract_dir": "Office Tool"
         }
     },
-    "bin": [["Office Tool Plus.exe", "OTP"]],
-    "shortcuts": [["Office Tool Plus.exe", "Office Tool Plus"]],
+    "bin": [
+        [
+            "Office Tool Plus.exe",
+            "OTP"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -19,7 +29,10 @@
                 "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office_Tool_v$version.zip",
                 "hash": {
                     "url": "https://github.com/YerongAI/Office-Tool/releases/tag/$version/",
-                    "regex": "$basename</td>\n<td align=\"left\">$sha256"
+                    "regex": [
+                        "$basename</td>",
+                        "<td align=\"left\">$sha256"
+                    ]
                 }
             }
         }
