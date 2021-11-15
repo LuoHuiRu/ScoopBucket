@@ -1,5 +1,5 @@
 {
-    "version": "1636636565554",
+    "version": "1636953191869",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -20,7 +20,7 @@
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "445ff96abef8d26f1454af038e0f3ee9fb936e29e696c71a10c4f4c5d1721853",
+                "805abf80e959e942ad710c722975220f468d8aaa35b61daba28b4a1e916fb54b",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
