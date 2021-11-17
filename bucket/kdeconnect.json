@@ -9,12 +9,7 @@
         }
     },
     "bin": "bin\\kdeconnect-indicator.exe",
-    "shortcuts": [
-        [
-            "bin\\kdeconnect-indicator.exe",
-            "KDE Connect"
-        ]
-    ],
+    "shortcuts": [["bin\\kdeconnect-indicator.exe", "KDE Connect"]],
     "checkver": {
         "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/",
         "regex": "kdeconnect-kde-([\\d\\.]+-[\\d]+)-windows-msvc2019_64-cl.7z</a>"
@@ -24,11 +19,11 @@
         "architecture": {
             "64bit": {
                 "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/lastSuccessfulBuild/artifact/kdeconnect-kde-$version-windows-msvc2019_64-cl.7z"
+            },
+            "hash": {
+                "url": "$url.sha256",
+                "regex": "$sha256"
             }
-        },
-        "hash": {
-            "url": "$url.sha256",
-            "regex": "$sha256"
         }
     }
 }

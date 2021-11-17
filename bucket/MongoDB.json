@@ -28,21 +28,11 @@
         "}"
     ],
     "bin": [
-        [
-            "bin\\mongo.exe",
-            "mongo"
-        ],
-        [
-            "bin\\mongod.exe",
-            "mongod"
-        ],
+        ["bin\\mongo.exe", "mongo"],
+        ["bin\\mongod.exe", "mongod"],
         "bin\\mongos.exe"
     ],
-    "persist": [
-        "conf\\mongod.cfg",
-        "data",
-        "log"
-    ],
+    "persist": ["conf\\mongod.cfg", "data", "log"],
     "checkver": {
         "url": "http://downloads.mongodb.org.s3.amazonaws.com/current.json",
         "jsonpath": "$.versions[0].version"
@@ -52,10 +42,10 @@
             "64bit": {
                 "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-$version.zip",
                 "extract_dir": "mongodb-win32-x86_64-windows-$version"
+            },
+            "hash": {
+                "url": "$url.sha256"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }

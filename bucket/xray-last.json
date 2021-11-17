@@ -9,18 +9,8 @@
             "hash": "ed8a3186b3fae3480b15e698067235c66099a0034e6825d4680dde3151bd5834"
         }
     },
-    "bin": [
-        [
-            "xray_windows_amd64.exe",
-            "xray"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "xray_windows_amd64.exe",
-            "XRay"
-        ]
-    ],
+    "bin": [["xray_windows_amd64.exe", "xray"]],
+    "shortcuts": [["xray_windows_amd64.exe", "XRay"]],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -28,7 +18,7 @@
                 "url": "https://github.com/chaitin/xray/releases/download/$version/xray_windows_amd64.exe.zip",
                 "hash": {
                     "url": "$baseurl/sha256.txt",
-                    "regex": "$base64\\s+\\./xray_windows_amd64.exe.zip"
+                    "regex": "$base64\\s+\\./$basename"
                 }
             }
         }

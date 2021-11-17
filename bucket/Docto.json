@@ -10,13 +10,5 @@
         }
     },
     "bin": [["docto.exe", "docto"]],
-    "shortcuts": [["docto.exe", "Docto"]],
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/tobya/DocTo/releases/download/V$version/docto105.zip"
-            }
-        }
-    }
+    "shortcuts": [["docto.exe", "Docto"]]
 }
