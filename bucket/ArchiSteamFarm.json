@@ -14,9 +14,22 @@
             "hash": "sha512:97366ad663f1c430dbfe9df6a83b5483e64c1487fca5e37b3aabc00cb472edb25be3f8ada43dec23b7595af89ff1d49740c8731b646e6afc6674513f0b774c76"
         }
     },
-    "bin": [["ArchiSteamFarm.exe", "ASF"]],
-    "shortcuts": [["ArchiSteamFarm.exe", "ASF"]],
-    "persist": ["config", "plugins"],
+    "bin": [
+        [
+            "ArchiSteamFarm.exe",
+            "ASF"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ArchiSteamFarm.exe",
+            "ASF"
+        ]
+    ],
+    "persist": [
+        "config",
+        "plugins"
+    ],
     "checkver": "github",
     "autoupdate": {
         "changelog": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/tag/$version",
