@@ -11,9 +11,13 @@
         }
     },
     "bin": "frpc.exe",
-    "persist": [
-        "frpc.ini",
-        "frpc_full.ini"
+    "persist": ["frpc.ini", "frpc_full.ini"],
+    "post_install": [
+        "if (Test-Path \"$dir\\frps.exe\") {",
+        "  Remove-Item \"$dir\\frps.exe\" -Force",
+        "  Remove-Item \"$dir\\frps.ini\" -Force",
+        "  Remove-Item \"$dir\\frps_full.ini\" -Force",
+        "}"
     ],
     "checkver": "github",
     "autoupdate": {
