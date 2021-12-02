@@ -1,5 +1,5 @@
 {
-    "version": "1638273327898",
+    "version": "1.63.0-insider(1638335550489)",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -15,12 +15,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+                "https://az764295.vo.msecnd.net/insider/0cc0904c565399781defa830facf43141db8b6f3/VSCode-win32-x64-1.63.0-insider.zip",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "47e5f0d1fe3a01a94cc22908688132492889693915c8ab4cc381b33368967eee",
+                "034d94193bedb19df20706fb54fb87bfc08f11ae74f4e75ec826ec69c60433d7",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
@@ -61,13 +61,15 @@
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
-        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp"
+        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')]",
+        "regex": "\"name\": \"(?<name>[\\d.]+-insider)\",\\s+\"version\": \"(?<version>[\\w]{40})(?>.|\\s)+?\"timestamp\": (?<time>[\\d]{13})",
+        "replace": "${name}(${time})"
     },
     "autoupdate": {
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+                "url": "https://az764295.vo.msecnd.net/insider/$matchVersion/VSCode-win32-x64-$matchName.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "mode": "json",
