@@ -1,5 +1,5 @@
 {
-    "version": "1.63.0-insider(1638335550489)",
+    "version": "1.63.0-insider_1638421962547",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -15,12 +15,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://az764295.vo.msecnd.net/insider/0cc0904c565399781defa830facf43141db8b6f3/VSCode-win32-x64-1.63.0-insider.zip",
+                "https://az764295.vo.msecnd.net/insider/68a1e2f872f8869b004eec284917782474730e0b/VSCode-win32-x64-1.63.0-insider.zip",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "034d94193bedb19df20706fb54fb87bfc08f11ae74f4e75ec826ec69c60433d7",
+                "fc31957aa8cb3642d2c8267c9dda10685555f7a577f3a156787f898a4964f853",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
@@ -63,7 +63,7 @@
         "url": "https://code.visualstudio.com/sha?build=insider",
         "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')]",
         "regex": "\"name\": \"(?<name>[\\d.]+-insider)\",\\s+\"version\": \"(?<version>[\\w]{40})(?>.|\\s)+?\"timestamp\": (?<time>[\\d]{13})",
-        "replace": "${name}(${time})"
+        "replace": "${name}_${time}"
     },
     "autoupdate": {
         "note": "Thanks for using autoupdate, please test your updates!",
