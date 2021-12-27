@@ -1,5 +1,5 @@
 {
-    "version": "1.64.0-insider_1640063559647",
+    "version": "1.64.0-insider_1640149971863",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -15,29 +15,19 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://az764295.vo.msecnd.net/insider/e8a26d3ebf5095d4324ad4bf794787540ed3b33e/VSCode-win32-x64-1.64.0-insider.zip",
+                "https://az764295.vo.msecnd.net/insider/7b9e5c32a053669d4e72f998e4fa217090c32f59/VSCode-win32-x64-1.64.0-insider.zip",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "63dfd183c4c878907531a2e65731ceb79e0db845bfd27437a448716580552f4b",
+                "1a9518ce0f85ae1456522bc7e8877e1c5aaf3066d32909d9f88c40a784872404",
                 "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
                 "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
             ]
         }
     },
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "code"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Code - Insiders"
-        ]
-    ],
+    "bin": [["bin\\code-insiders.cmd", "code"]],
+    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
