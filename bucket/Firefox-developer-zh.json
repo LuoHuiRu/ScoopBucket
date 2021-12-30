@@ -1,17 +1,27 @@
 {
-    "version": "96.0b9",
+    "version": "96.0b10",
     "description": "Developer builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/zh-CN/firefox/developer/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/devedition/releases/96.0b9/win64/zh-CN/Firefox%20Setup%2096.0b9.exe#/dl.7z",
-            "hash": "sha512:039da71924fd5b9c348b1827ef87121b2d975761c784dc626d1dd7cd369d849f39bdfff535c90cc476519426ae683ca6a63ae08ff8703829770b429fb1d7057a"
+            "url": "https://archive.mozilla.org/pub/devedition/releases/96.0b10/win64/zh-CN/Firefox%20Setup%2096.0b10.exe#/dl.7z",
+            "hash": "sha512:2cc83afb90317756206433220103e2d122b566e8a0dfdb51ccc2efc38831fc6673a047853914a98630fcabef682fd7666568cfa78166440f0f71cee9d569b161"
         }
     },
     "extract_dir": "core",
-    "bin": [["firefox.exe", "firefox-dev"]],
-    "shortcuts": [["firefox.exe", "Firefox Developer Edition"]],
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Developer Edition"
+        ]
+    ],
     "checkver": {
         "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/en-US/aurora/_/_/_/_/update.xml",
         "xpath": "/updates/update/patch/@URL",
