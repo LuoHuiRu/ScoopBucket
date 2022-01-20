@@ -1,12 +1,12 @@
 {
-    "version": "8.2.9.2",
+    "version": "8.3.1.0",
     "description": "Image uploader/manager",
     "homepage": "https://github.com/YerongAI/Office-Tool",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v8.2.9.2/Office_Tool_v8.2.9.2.zip",
-            "hash": "2717fde311bec9ba9800e6aec139cf060b8b1301a9bed07ce60369f3d4166b32",
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v8.3.1.0/Office_Tool_v8.3.1.0.zip",
+            "hash": "99b9dbf28c74843b722402715ef104e0cbe1a1db5d513c75862d9179ecc80d17",
             "extract_dir": "Office Tool"
         }
     },
