@@ -1,9 +1,11 @@
+name: Excavator
+
 on:
   workflow_dispatch:
   schedule:
     # run every 4 hours
     - cron: '20 */4 * * *'
-name: Excavator
+
 jobs:
   excavate:
     name: Excavate
@@ -11,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Excavate
-      uses: ScoopInstaller/GithubActions@main
+      uses: shovel-org/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
