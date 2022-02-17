@@ -1,7 +1,3 @@
-# App Manifest Autoupdate
-
----
-
 Auto Update is a tool for package maintainers. It automatically checks for new versions of an app and updates the manifest accordingly. It helps to eliminate much of the tedium of updating manifests, as well as reducing the risk of human error while doing so.
 
 Here you will find an in-depth explanation of how the `autoupdate` part of an app manifest works.
@@ -147,7 +143,7 @@ Use `checkver.reverse: true` to let `checkver.regex` match the last occurrence f
 ```json
 "checkver": {
     "url": "https://download.videolan.org/pub/videolan/x264/binaries/win64/",
-    "re": "x264-r(?<version>[\\d]+)-(?<commit>[a-fA-F0-9]{7}).exe",
+    "regex": "x264-r(?<version>[\\d]+)-(?<commit>[a-fA-F0-9]{7}).exe",
     "reverse": true
 }
 ```
@@ -159,7 +155,7 @@ This example will provide `$matchVersion` and `$matchShort` as variables (used i
 ```json
 "checkver": {
     "url": "https://github.com/git-for-windows/git/releases/latest",
-    "re": "v(?<version>[\\d\\w.]+)/PortableGit-(?<short>[\\d.]+).*\\.exe"
+    "regex": "v(?<version>[\\d\\w.]+)/PortableGit-(?<short>[\\d.]+).*\\.exe"
 }
 ```
 
@@ -168,7 +164,7 @@ This example will provide `${1}, ${2}, ${3}` (used in `checkver.replace`) and `$
 ```json
 "checkver": {
     "url": "https://github.com/lukesampson/pshazz/commits/master.atom",
-    "re": "(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})",
+    "regex": "(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})",
     "replace": "0.${1}.${2}.${3}"
 }
 ```
@@ -281,7 +277,7 @@ Some examples using the `autoupdate` feature with [captured variables](#captured
 
 ```json
 "checkver": {
-    "re": "/(?<type>early_access|GA)/(?<path>jdk(?<major>[\\d.]+)(?:.*)?/(?<build>[\\d]+)(?:/GPL|/binaries)?)/(?<file>openjdk-(?<version>[\\d.]+)(?<ea>-ea)?(?:\\+[\\d]+)?_windows-x64_bin.(zip|tar.gz))",
+    "regex": "/(?<type>early_access|GA)/(?<path>jdk(?<major>[\\d.]+)(?:.*)?/(?<build>[\\d]+)(?:/GPL|/binaries)?)/(?<file>openjdk-(?<version>[\\d.]+)(?<ea>-ea)?(?:\\+[\\d]+)?_windows-x64_bin.(zip|tar.gz))",
     "replace": "${version}-${build}${ea}"
 },
 "autoupdate": {
@@ -316,17 +312,11 @@ Some examples using the `autoupdate` feature with [captured variables](#captured
 
 ## Properties of `autoupdate`
 
+Most of the [manifest properties](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) could be added into `autoupdate`: `bin`, `extract_dir`, `extract_to`, `env_add_path`, `env_set`, `installer`, `license`, `note`, `persist`, `post_install`, `psmodule`, `shortcuts`, and the most important ones, `url` and `hash`.
+
 All the properties except `autoupdate.note` can be set globally for all architectures or for each architecture separately (under `architecture.64bit` or `architecture.32bit`). Global properties can be used to update each architectural properties, i.e., if only setted globally, `autoupdate.url` is used to update either `architecture.64bit.url` or `architecture.32bit.url`.
 
-- `url`: "uri". An URL template for generating the new url
-  - **scoop** will rename files by appending `#/dl.7z` or `#/pngcrush.exe` to the URL (useful for extracting installers or renaming executables version string)
-  - Supports [captured variables](#captured-variables)
-  - Supports [version variables](#version-variables)
-- `hash`: "object". Set this [property](#adding-hash-to-autoupdate) for obtaining hash values without download the actual files
-- `extract_dir`: "string". Option to update `extract_dir`
-  - Supports [captured variables](#captured-variables)
-  - Supports [version variables](#version-variables)
-- `note`: "string". Optional message to be displayed when the autoupdate command is run
+All the properties except `hash` support [captured variables](#captured-variables) and [version variables](#version-variables), and `hash` has its own [property](#adding-hash-to-autoupdate) for obtaining hash values without download the actual files.
 
 # Adding `hash` to `autoupdate`
 
@@ -348,7 +338,7 @@ Hash value can be directly extracted by the following method (`autoupdate.hash.m
 
 ```json
 "checkver": {
-    "re": "<strong>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})</strong>: New QEMU installers \\((?<version>[\\d.a-z\\-]+)\\)"
+    "regex": "<strong>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})</strong>: New QEMU installers \\((?<version>[\\d.a-z\\-]+)\\)"
 },
 "autoupdate": {
     "architecture": {
@@ -591,13 +581,6 @@ All the properties can be set globally for all architectures or for each archite
 - `$checksum`: `([a-fA-F0-9]{32,128})` MD5, SHA-1, SHA-256 or SHA-512 hash type
 - `$base64`: `([a-zA-Z0-9+\/=]{24,88})` BASE64 encoded checksum (can be MD5, SHA-1, SHA-256 or SHA-512)
 
-# Limitations
-
-There are some complex manifests which reach the limits of the current autoupdate implementation, mainly because `autoupdate` only update `url`, `hash` and `extract_dir`. (*The list of affected manifests is incomplete*)
-
-- The binaries specified in the `bin` or `shortcuts` change with the version number. Example: [gimp](https://github.com/lukesampson/scoop-extras/blob/master/bucket/gimp.json)
-- There are multiple `url`s needed to be updated. Example: [coreutils](https://github.com/ScoopInstaller/Main/blob/master/bucket/coreutils.json)
-
 # Testing and running autoupdate
 
 If you want to confirm an autoupdate works, e.g. after adding it to an existing manifest or creating a new one, change the `version` field to a lower or different version and then run `checkver.ps1` or use the `-f` parameter.
@@ -610,10 +593,10 @@ scoop config debug $true
 
 Check if the `url`, `hash` and `extract_dir` properties have the correct values. Try to install/uninstall the app and submit your changes.
 
-Manifests in some known buckets are autoupdated by [ScoopInstaller/Excavator](https://github.com/ScoopInstaller/Excavator), so if you want some apps being autoupdated, migrate them to one of these buckets or run an instance of the excavator yourself.
+Manifests in some known buckets are autoupdated by [ScoopInstaller/GithubActions](https://github.com/ScoopInstaller/GithubActions), so if you want some apps being autoupdated, migrate them to one of these buckets or run an instance of the excavator yourself.
 
 - [`main`](https://github.com/ScoopInstaller/Main): Update per hour
-- [`extras`](https://github.com/lukesampson/scoop-extras): Update per hour
+- [`extras`](https://github.com/ScoopInstaller/Extras): Update per hour
 - [`versions`](https://github.com/ScoopInstaller/Versions): Update per day
 - [`java`](https://github.com/ScoopInstaller/Java): Update per day
 - [`php`](https://github.com/ScoopInstaller/PHP): Update per day
