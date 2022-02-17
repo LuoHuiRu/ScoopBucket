@@ -1,18 +1,18 @@
-name: Excavator
+name: Schedule
 
 on:
   workflow_dispatch:
   schedule:
     # run every 4 hours
-    - cron: '20 */4 * * *'
+    - cron: '0 */12 * * *'
 
 jobs:
   excavate:
-    name: Excavate
+    name: scheduled
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
-    - name: Excavate
+    - name: scheduled
       uses: shovel-org/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
