@@ -6,31 +6,16 @@
         "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
         "url": "https://www.7-zip.org/license.txt"
     },
-    "notes": "Add 7-Zip as a context menu option by running: \"$dir\\install-context.reg\"",
+    "notes": [
+        "Add 7-Zip as a context menu option by running: \"$dir\\install-context.reg\"",
+        "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
+        "Replace 7z.dll to 7z_office.dll in $env:SCOOP\\persist\\7zip",
+        "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/7zip/7z_office.dll"
+    ],
     "architecture": {
         "64bit": {
-            "url": [
-                "https://7-zip.org/a/7z2107-x64.msi",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
-            ],
-            "hash": [
-                "5447c9ac39c48f1bc7c88359b0520396a8c9707b307c107236a93a68e6fd3eb6",
-                "358c8a2f87c4dc89c86ee4c72c71766856da146c0a8840001e6821fe5bb0c7ca",
-                "667ef7b5c7bfb6cdcc595042ac6c0cae802fbfd59fc601b22b533f6f1bcaf374"
-            ]
-        },
-        "32bit": {
-            "url": [
-                "https://7-zip.org/a/7z2107.msi",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
-            ],
-            "hash": [
-                "b3ca98a8784c710108bbf56f9355ac6060af770b8459a32d94cc09b73cf0af7e",
-                "358c8a2f87c4dc89c86ee4c72c71766856da146c0a8840001e6821fe5bb0c7ca",
-                "667ef7b5c7bfb6cdcc595042ac6c0cae802fbfd59fc601b22b533f6f1bcaf374"
-            ]
+            "url": "https://7-zip.org/a/7z2107-x64.msi",
+            "hash": "5447c9ac39c48f1bc7c88359b0520396a8c9707b307c107236a93a68e6fd3eb6"
         }
     },
     "pre_install": [

@@ -10,34 +10,17 @@
         "Visual Studio Code now supports Portable Mode! Please move the following directories:",
         "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-nightly\\data\\extensions\"",
         "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-nightly\\data\\user-data\"",
-        "Add Visual Studio Code as a context menu option by running: \"$dir\\vscode-install-context.reg\""
+        "Add Visual Studio Code as a context menu option by running: ",
+        "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg"
     ],
     "architecture": {
         "64bit": {
-            "url": [
-                "https://az764295.vo.msecnd.net/insider/86200d542474b26aa28034e0fd5789c45c747d8b/VSCode-win32-x64-1.65.0-insider.zip",
-                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-uninstall-context.reg"
-            ],
-            "hash": [
-                "8161fd58b938b2a793de34fb1b727d92ee6b9f0ccb55a9925155739bc0eaf094",
-                "AA4075E41535AFC7E54287832F861CA60E4AA714A63D1724DB0C5475F6CA9F4A",
-                "F8B2992BD4D995256AFBB026AFD67D402C809A0F4D56F86E75A9E58B8B1B394E"
-            ]
+            "url": "https://az764295.vo.msecnd.net/insider/86200d542474b26aa28034e0fd5789c45c747d8b/VSCode-win32-x64-1.65.0-insider.zip",
+            "hash": "8161fd58b938b2a793de34fb1b727d92ee6b9f0ccb55a9925155739bc0eaf094"
         }
     },
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "code"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Code - Insiders"
-        ]
-    ],
+    "bin": [["bin\\code-insiders.cmd", "code"]],
+    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
