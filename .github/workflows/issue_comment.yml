@@ -1,0 +1,18 @@
+name: Commented Pull Request
+
+on:
+  issue_comment:
+    types: [ created ]
+
+jobs:
+  pullRequestHandler:
+    name: PullRequestHandler
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@main
+    - name: PullRequestHandler
+      uses: shovel-org/GithubActions@main
+      if: startsWith(github.event.comment.body, '/verify')
+      env:
+        GITH_EMAIL: lhru.1997@gmail.com
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
