@@ -1,14 +1,14 @@
 {
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "SSH/Sftp/Shell/Telnet/Serial client",
-    "homepage": "https://kingtoolbox.github.io/",
+    "homepage": "https://github.com/kingToolbox/WindTerm",
     "license": "Apache-2.0",
     "suggest": {
         "vcredist2019": "extras/vcredist2019"
     },
-    "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.2/WindTerm_2.2.2_Windows_Portable.zip",
-    "hash": "9107cab40f6b447d8da98e4a19359661bbe988c645baf455d759ebd4351cc8a8",
-    "extract_dir": "WindTerm_2.2.2",
+    "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_64.zip",
+    "hash": "c23f388cd6312ce412dd1038eb98a73605db4445d3139df8122e81a8e96292ad",
+    "extract_dir": "WindTerm_2.3.0",
     "shortcuts": [
         [
             "WindTerm.exe",
@@ -25,12 +25,9 @@
         "profiles",
         "terminal"
     ],
-    "checkver": {
-        "github": "https://github.com/kingToolbox/WindTerm",
-        "regex": "WindTerm_([\\d.]+)_Windows_Portable"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kingToolbox/WindTerm/releases/download/$majorVersion.$minorVersion/WindTerm_$version_Windows_Portable.zip",
+        "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_64.zip",
         "extract_dir": "WindTerm_$version"
     }
 }
