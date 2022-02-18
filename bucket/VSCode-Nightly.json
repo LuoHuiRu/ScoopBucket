@@ -1,5 +1,5 @@
 {
-    "version": "1.65.0-insider_1645082251880",
+    "version": "1.65.0-insider_1645161264130",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -15,12 +15,22 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/86200d542474b26aa28034e0fd5789c45c747d8b/VSCode-win32-x64-1.65.0-insider.zip",
-            "hash": "8161fd58b938b2a793de34fb1b727d92ee6b9f0ccb55a9925155739bc0eaf094"
+            "url": "https://az764295.vo.msecnd.net/insider/1d618b2df1cf08f0e3ab706353f0a8f6f1424795/VSCode-win32-x64-1.65.0-insider.zip",
+            "hash": "6c94cef36b350a52ab104ddd8ef73f6ce4162fee62d51ec95725e99e537bc73e"
         }
     },
-    "bin": [["bin\\code-insiders.cmd", "code"]],
-    "shortcuts": [["Code - Insiders.exe", "Code - Insiders"]],
+    "bin": [
+        [
+            "bin\\code-insiders.cmd",
+            "code"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Code - Insiders.exe",
+            "Code - Insiders"
+        ]
+    ],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
