@@ -1,12 +1,12 @@
 {
-    "version": "99.0b1",
+    "version": "99.0b2",
     "description": "Developer builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/zh-CN/firefox/developer/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/devedition/releases/99.0b1/win64/zh-CN/Firefox%20Setup%2099.0b1.exe#/dl.7z",
-            "hash": "sha512:ee4442de7a01c306def2460b37f1a0c7143e9b21cffb3758cf2dd151d2f045cd154712064f2317bc844d40a5640fc929290cad86aceca0e8e83315ee4f2a1175"
+            "url": "https://archive.mozilla.org/pub/devedition/releases/99.0b2/win64/zh-CN/Firefox%20Setup%2099.0b2.exe#/dl.7z",
+            "hash": "sha512:2a40bb6573102ea89e1468d7e739431b620021685455ebe958a90a0ba50aaef25e04079ea7db45dd72b94f0fbd8c0aae78b63dcc0fcadf5769f7acd9666dec48"
         }
     },
     "extract_dir": "core",
