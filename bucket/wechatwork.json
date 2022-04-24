@@ -1,5 +1,5 @@
 {
-    "version": "4.0.2",
+    "version": "4.0.3",
     "homepage": "https://work.weixin.qq.com/",
     "description": "Connection Makes a Smarter Business",
     "license": {
@@ -7,7 +7,10 @@
         "url": "https://work.weixin.qq.com/nl/eula"
     },
     "architecture": {
-        "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z"
+        "64bit": {
+            "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z",
+            "hash": "ebdffdecd7fb10cf301ed047f044a719245e04f4b4aa1487e17629968defbb71"
+        }
     },
     "shortcuts": [
         [
@@ -23,5 +26,11 @@
         "url": "https://work.weixin.qq.com",
         "regex": "企业微信 ([\\d.]+)"
     },
-    "autoupdate": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z"
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z"
+            }
+        }
+    }
 }

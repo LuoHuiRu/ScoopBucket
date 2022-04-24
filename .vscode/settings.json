@@ -4,7 +4,7 @@
       "fileMatch": [
         "bucket/*.json"
       ],
-      "url": "./schema.json"
+      "url": "./.vscode/schema.json"
     }
   ]
 }
