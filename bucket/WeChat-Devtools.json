@@ -1,33 +1,33 @@
 {
-  "version": "1.05.2204180",
-  "description": "To help developers develop and debug Weixin Mini Programs more simply and efficiently.",
-  "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
-  "license": {
-    "identifier": "Freeware"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=1052204180&version_type=1#/dl.7z",
-      "hash": "119bb9217a349bf79f7cf01ee181c442681d6e2d4d286325fca6d7948558fd72"
-    }
-  },
-  "pre_install": "Remove-Item -R -Path \"$dir\\`$PLUGINSDIR\"",
-  "shortcuts": [
-    [
-      "微信开发者工具.exe",
-      "微信开发者工具"
-    ]
-  ],
-  "checkver": {
-    "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
-    "regex": "\\> (?<maj>\\d+)\\.(?<min>\\d+)\\.(?<patch>\\d+) \\<",
-    "replace": "${maj}.${min}.${patch}"
-  },
-  "autoupdate": {
+    "version": "1.05.2204250",
+    "description": "To help developers develop and debug Weixin Mini Programs more simply and efficiently.",
+    "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
+    "license": {
+        "identifier": "Freeware"
+    },
     "architecture": {
-      "64bit": {
-        "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=$matchMaj$matchMin$matchPatch&version_type=1#/dl.7z"
-      }
+        "64bit": {
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=1052204250&version_type=1#/dl.7z",
+            "hash": "eda37d7c71102da618a04a40c6b5ecc819e97f9bac484e7fc04a823415a20f56"
+        }
+    },
+    "pre_install": "Remove-Item -R -Path \"$dir\\`$PLUGINSDIR\"",
+    "shortcuts": [
+        [
+            "微信开发者工具.exe",
+            "微信开发者工具"
+        ]
+    ],
+    "checkver": {
+        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+        "regex": "\\> (?<maj>\\d+)\\.(?<min>\\d+)\\.(?<patch>\\d+) \\<",
+        "replace": "${maj}.${min}.${patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=$matchMaj$matchMin$matchPatch&version_type=1#/dl.7z"
+            }
+        }
     }
-  }
 }
