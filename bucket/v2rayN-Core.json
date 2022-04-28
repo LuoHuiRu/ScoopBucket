@@ -1,0 +1,50 @@
+{
+  "version": "5.16",
+  "description": "V2RayN,v2ray user-friendly GUI client on windows!",
+  "homepage": "https://github.com/2dust",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/2dust/v2rayN/releases/download/5.16/v2rayN-Core.zip",
+      "hash": "D2432AC3EC7881382C5807330C8F2DA994F766BD8DA551C2A3E3D59592842C09",
+      "extract_dir": "v2rayN-Core"
+    }
+  },
+  "pre_install": [
+    "# 'guiNConfig.json',",
+    "if (!(Test-Path \"$persist_dir\\user-wininet.json\")) {",
+    "    New-Item -Path \"$dir\\user-wininet.json\" | Out-Null",
+    "}",
+    "if (Test-Path \"$persist_dir\\guiNConfig.json\") {",
+    "    Copy-Item \"$persist_dir\\guiNConfig.json\" \"$dir\\\" | Out-Null",
+    "}",
+    "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+    "    Copy-Item \"$(appdir v2ray $global)\\current\\config.json\" \"$dir\" | Out-Null",
+    "}"
+  ],
+  "bin": [
+    [
+      "v2rayN.exe",
+      "v2rayN"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "v2rayN.exe",
+      "v2rayN"
+    ]
+  ],
+  "persist": [
+    "config.json",
+    "guiNConfig.json",
+    "user-wininet.json"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-Core.zip"
+      }
+    }
+  }
+}
