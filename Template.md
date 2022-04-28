@@ -12,7 +12,7 @@
         }
     },
     // 执行文件位置
-    "bin": [[ "program.exe", "alias" ]]
+    "bin": [[ "program.exe", "alias" ]],
     // 快捷方式
     "shortcuts": [["pwsh.exe", "PowerShell"]],
     "checkver": {
