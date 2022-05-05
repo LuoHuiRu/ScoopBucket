@@ -1,5 +1,5 @@
 {
-    "version": "7.15.0.15",
+    "version": "7.12.3.5",
     "homepage": "https://pan.baidu.com/download",
     "description": "百度网盘PC版",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.15.0.15.exe#dl.7z",
-            "hash": "4582db1fc468fcd7844982fd333bb308779f19e191c8399ad844cff948d513a9"
+            "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.12.3.5.exe#dl.7z",
+            "hash": "1bdd2d4005e8a0542db68047a80b6969ab089f9a498797aafae7ae8f5844653e"
         }
     },
     "bin": "BaiduNetdisk.exe",
