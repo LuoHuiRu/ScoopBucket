@@ -1,0 +1,34 @@
+{
+  "version": "6_19_2",
+  "description": "这是一个非常实用的小软件，里面包含了许多常用的小功能。",
+  "homepage": "https://www.wodeabc.com/article/show/8002027",
+  "license": "None",
+  "architecture": {
+    "64bit": {
+      "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_19_2.exe#/dl.7z",
+      "hash": "12C126B651DC439A1F219647046A37ECA7625D99B9D114F722700BBFDA4E7DDA"
+    }
+  },
+  "pre_install": [
+    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force"
+  ],
+  "bin": "wodeabc.exe",
+  "shortcuts": [
+    [
+      "wodeabc.exe",
+      "ABC工具箱"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.wodeabc.com/download",
+    "regex": "wodeabc-installer-64bit-([\\d_]+)\\.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$version.exe"
+      }
+    }
+  }
+}

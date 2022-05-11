@@ -10,5 +10,10 @@
         }
     },
     "bin": "XCLWinKits.exe",
-    "shortcuts": [["XCLWinKits.exe", "XCLWinKits"]]
+    "shortcuts": [
+        [
+            "XCLWinKits.exe",
+            "XCLWinKits"
+        ]
+    ]
 }

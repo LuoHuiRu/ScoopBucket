@@ -1,13 +1,29 @@
 {
-    "version": "1.1.0.19",
+    "version": "1.1.0.23",
     "description": "Everything 命令行接口.",
     "homepage": "https://www.voidtools.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/ES-1.1.0.19.zip",
-            "hash": "5A70E0056070ADEBD6CA422F9FB28079E652EACE8C793E12CB823C09A9E1875E"
+            "url": "https://www.voidtools.com/ES-1.1.0.23.zip",
+            "hash": "e8ac817ae276ba1d12044a65444c109f284015ba985d29201a9fd4f38b5e6187"
         }
     },
-    "bin": "es.exe"
+    "bin": [
+        [
+            "es.exe",
+            "es"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.voidtools.com/zh-cn/downloads/",
+        "regex": "ES-([\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.voidtools.com/ES-$version.zip"
+            }
+        }
+    }
 }

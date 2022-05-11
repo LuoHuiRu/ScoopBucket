@@ -7,21 +7,7 @@
         "url": "https://www.7-zip.org/license.txt"
     },
     "notes": [
-        "Add 7-Zip as a context menu option by running: \"$dir\\install-context.reg\"",
-        "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
-        "\"pre_install\": [",
-        "$7zip_root = \"$dir\".Replace('\\', '\\\\')",
-        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
-        "    $content = Get-Content \"$dir\\$_\"",
-        "    $content = $content.Replace('$7zip_root', $7zip_root)",
-        "    if ($global) {",
-        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "    }",
-        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
-        "}",
-        "]",
-        "Replace 7z.dll to 7z_office.dll in $env:SCOOP\\persist\\7zip",
-        "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/7zip/7z_office.dll"
+        "Add 7-Zip as a context menu option by running: \"$dir\\install-context.reg\""
     ],
     "architecture": {
         "64bit": {
@@ -29,6 +15,21 @@
             "hash": "5447c9ac39c48f1bc7c88359b0520396a8c9707b307c107236a93a68e6fd3eb6"
         }
     },
+    "pre_install": [
+        "$7zip_root = $dir",
+        "Copy-Item -Recurse -Force -Path \"$bucketsdir\\$bucket\\scripts\\$app\\reg\\*\" -Destination \"$dir\"",
+        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+        "    $content = Get-Content \"$dir\\$_\"",
+        "    $content = $content.Replace('$7zip_root', $7zip_root)",
+        "    if ($global) {",
+        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
+        "}"
+    ],
+    "post_install": [
+        "Copy-Item -Path \"$bucketsdir\\$bucket\\scripts\\$app\\7z_office.dll\" -Destination \"$persist_dir\\7z.dll\" -Force"
+    ],
     "extract_dir": "Files\\7-Zip",
     "bin": "7z.exe",
     "shortcuts": [["7zFM.exe", "7-Zip"]],

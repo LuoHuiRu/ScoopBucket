@@ -25,12 +25,12 @@
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
             "64bit": {
-                "url": "https://www.binaryfortress.com/Data/Download/?Package=clipboardfusion&noinstall=1#/dl.7z"
+                "url": "https://www.binaryfortress.com/Data/Download/?Package=clipboardfusion&noinstall=1#/dl.7z",
+                "hash": {
+                    "url": "https://www.clipboardfusion.com/Download/",
+                    "regex": "<li><b>Without Installer .*:</b> $sha1 .SHA1."
+                }
             }
-        },
-        "hash": {
-            "url": "https://www.clipboardfusion.com/Download/",
-            "regex": "<li><b>Without Installer .*:</b> $sha1 .SHA1."
         }
     }
 }

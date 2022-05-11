@@ -9,9 +9,7 @@
     "notes": [
         "Visual Studio Code now supports Portable Mode! Please move the following directories:",
         "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-nightly\\data\\extensions\"",
-        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-nightly\\data\\user-data\"",
-        "Add Visual Studio Code as a context menu option by running: ",
-        "https://raw.githubusercontent.com/LuoHuiRu/ScoopBucket/master/scripts/vscode/vscode-install-context.reg"
+        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-nightly\\data\\user-data\""
     ],
     "architecture": {
         "64bit": {
@@ -32,23 +30,18 @@
         ]
     ],
     "post_install": [
-        "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
-        "  $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
-        "  $content = Get-Content \"$dir\\vscode-install-context.reg\"",
-        "  $content = $content.Replace('$code', $codepath)",
-        "  $content = $content.Replace('&Code', 'Code &Insiders')",
-        "  if ($global) {",
-        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "Copy-Item -Recurse -Force -Path \"$bucketsdir\\$bucket\\scripts\\$app\\*\" -Destination \"$dir\"",
+        "'vscode-install-context.reg', 'vscode-uninstall-context.reg'| ForEach-Object{",
+        "  if (Test-Path $_) {",
+        "    $codepath = \"$dir\\Code - Insiders.exe\".Replace('\\', '\\\\')",
+        "    $content = Get-Content \"$dir\\$_\"",
+        "    $content = $content.Replace('$code', $codepath)",
+        "    $content = $content.Replace('&Code', 'Code &Insiders')",
+        "    if ($global) {",
+        "      $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    $content | Set-Content -Path \"$dir\\$_\"",
         "  }",
-        "  $content | Set-Content -Path \"$dir\\vscode-install-context.reg\"",
-        "}",
-        "if (Test-Path \"$dir\\vscode-uninstall-context.reg\") {",
-        "  $content = Get-Content \"$dir\\vscode-uninstall-context.reg\"",
-        "  $content = $content.Replace('&Code', 'Code &Insiders')",
-        "  if ($global) {",
-        "    $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "  }",
-        "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
         "}"
     ],
     "persist": "data",
