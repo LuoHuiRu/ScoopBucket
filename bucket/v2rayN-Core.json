@@ -1,7 +1,7 @@
 {
   "version": "5.16",
   "description": "V2RayN,v2ray user-friendly GUI client on windows!",
-  "homepage": "https://github.com/2dust",
+  "homepage": "https://github.com/2dust/v2rayN",
   "license": "MIT",
   "architecture": {
     "64bit": {
