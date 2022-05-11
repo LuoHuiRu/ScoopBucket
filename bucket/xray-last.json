@@ -1,12 +1,12 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.4",
     "description": "一款功能强大的安全评估工具",
     "homepage": "https://github.com/chaitin/xray",
     "license": "License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chaitin/xray/releases/download/1.7.0/xray_windows_amd64.exe.zip",
-            "hash": "a97ecbcab51f41ceb5cad2d325d11257fc52f9f389f65c057489e39803ddc62e"
+            "url": "https://github.com/chaitin/xray/releases/download/1.8.4/xray_windows_amd64.exe.zip",
+            "hash": "e0f905b72b2a782468b0f2b50611d9fbfadf34ed5ec339138b5a92f3ff3e4def"
         }
     },
     "bin": [
