@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[-HKEY_CURRENT_USER\Software\Classes\*\shell\&Code]
-[-HKEY_CURRENT_USER\Software\Classes\*\shell\&Code\command]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&Code]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&Code\command]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&Code]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&Code\command]
