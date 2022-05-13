@@ -1,7 +1,7 @@
 ```json
 {
     // 版本号
-    "version": "", 
+    "version": "",
     "description": "",
     "homepage": "",
     "license": "MIT",
