@@ -1,1 +1,1 @@
-﻿Remove-Service -Name 'Nessus'
+Remove-Service -Name 'Nessus'

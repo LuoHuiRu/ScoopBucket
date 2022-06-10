@@ -1,4 +1,4 @@
-﻿$params = @{
+$params = @{
   Name           = 'Nessus'
   DisplayName    = 'Nessus'
   BinaryPathName = '&NessusPath'
