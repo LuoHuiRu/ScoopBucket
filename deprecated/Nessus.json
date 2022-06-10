@@ -1,0 +1,61 @@
+{
+  "version": "10.2.0",
+  "description": "",
+  "homepage": "https://www.tenable.com/downloads/nessus?loginAttempted=true",
+  "license": "tenable",
+  "notes": [
+    "安装nessus服务",
+    "sudo $dir\\nessus-install-service.ps1"
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://www.tenable.com/downloads/api/v1/public/pages/nessus/downloads/16480/download?i_agree_to_tenable_license_agreement=true#/Nessus.msi",
+      "hash": "8F91F1301897550A862F7F9734EC6AE1A2298BC669FBD800AB50FFE573DEF249"
+    }
+  },
+  // ! 安装的服务不能运行
+  "extract_dir": "Program Files 64/Tenable/Nessus",
+  "bin": [
+    [
+      "nessuscli.exe",
+      "nessuscli"
+    ]
+  ],
+  "pre_install": [
+    "'nessus-install-service.ps1', 'nessus-uninstall-service.ps1' | ForEach-Object {",
+    "  if (Test-Path \"$bucketsdir\\$bucket\\scripts\\Nessus\\$_\") {",
+    "    $NessusPath = \"$dir\\nessus-service.exe\"",
+    "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\Nessus\\$_\"",
+    "    $content = $content.Replace('&NessusPath', $NessusPath)",
+    "    $content | Set-Content -Path \"$dir\\$_\"",
+    "  }",
+    "}"
+  ],
+  "installer": {
+    "script": "sudo $dir\\nessus-install-service.ps1"
+  },
+  "uninstaller": {
+    "script": "sudo $dir\\nessus-uninstall-service.ps1"
+  },
+  "shortcuts": [
+    [
+      "Nessus Web Client.url",
+      "Nessus"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.tenable.com/downloads/nessus?loginAttempted=true",
+    "regex": "Nessus - ([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.tenable.com/downloads/api/v1/public/pages/nessus/downloads/16480/download?i_agree_to_tenable_license_agreement=true"
+      }
+    },
+    "hash": {
+      "url": "https://www.tenable.com/downloads/nessus?loginAttempted=true",
+      "regex": "Nessus-$version-x64.msi\".*?$sha256"
+    }
+  }
+}
