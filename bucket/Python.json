@@ -51,7 +51,7 @@
         "Write-Output \"`e[0m\" # Reset ansi to prevent color leak from installer",
         "",
         "Copy-Item -Path \"$dir\\Lib\\site.py\" -Destination \"$dir\\Lib\\site.py.original\" -Force",
-        "$user_site = \"$persist_dir\\Lib\\site-packages\"..Replace('\\', '\\\\')",
+        "$user_site = \"$persist_dir\\Lib\\site-packages\".Replace('\\', '\\\\')",
         "$user_base = \"$persist_dir\\Scripts\".Replace('\\', '\\\\')",
         "$content = Get-Content \"$dir\\Lib\\site.py.original\"",
         "$content = $content -creplace \"^USER_SITE = None$\", \"USER_SITE = '$user_site'\"",
