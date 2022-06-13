@@ -1,12 +1,12 @@
 {
-    "version": "6_23_1",
+    "version": "6_24_0",
     "description": "这是一个非常实用的小软件，里面包含了许多常用的小功能。",
     "homepage": "https://www.wodeabc.com/article/show/8002027",
     "license": "None",
     "architecture": {
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_23_1.exe#/dl.7z",
-            "hash": "83a482f8d4e8f0b757469a7f180a32442165370df33b6fb014bf93bf0722aa5b"
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_24_0.exe#/dl.7z",
+            "hash": "c42485ef49668646052f553690fb6956500169778c92c00d15e9f7412c7ad840"
         }
     },
     "pre_install": [
