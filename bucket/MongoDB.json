@@ -1,5 +1,5 @@
 {
-    "version": "6.0.0-rc10",
+    "version": "6.0.0-rc11",
     "description": "A document database with the scalability and flexibility.",
     "homepage": "https://www.mongodb.org",
     "license": {
@@ -14,9 +14,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.0-rc10.zip",
-            "hash": "7f66b018b8bbaf3b762c2138958ea7513d97e6925999c69798184dd391705840",
-            "extract_dir": "mongodb-win32-x86_64-windows-6.0.0-rc10"
+            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.0-rc11.zip",
+            "hash": "695f678a07e6090ecb5e26b3eeff895ba51da4253fc5659f2f6f08e840275956",
+            "extract_dir": "mongodb-win32-x86_64-windows-6.0.0-rc11"
         }
     },
     "pre_install": [
