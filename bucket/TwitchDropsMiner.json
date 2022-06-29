@@ -1,0 +1,28 @@
+{
+  "version": "11",
+  "description": "twitch",
+  "homepage": "https://github.com/DevilXD/TwitchDropsMiner",
+  "license": "mit",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/DevilXD/TwitchDropsMiner/releases/download/v11/Twitch.Drops.Miner.zip",
+      "hash": "934C9153111307383BFC3CCEC259AB19AA62A0E6F1869F4C048F788096CD8375",
+      "extract_dir": "Twitch Drops Miner"
+    }
+  },
+  "bin": [["Twitch Drops Miner (by DevilXD).exe", "TwitchDrops"]],
+  "shortcuts": [
+    [
+      "Twitch Drops Miner (by DevilXD).exe",
+      "Twitch Drops"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/DevilXD/TwitchDropsMiner/releases/download/v$version/Twitch.Drops.Miner.zip"
+      }
+    }
+  }
+}
