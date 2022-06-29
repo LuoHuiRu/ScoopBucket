@@ -10,12 +10,27 @@
       "extract_dir": "Twitch Drops Miner"
     }
   },
-  "bin": [["Twitch Drops Miner (by DevilXD).exe", "TwitchDrops"]],
+  "bin": [
+    [
+      "Twitch Drops Miner (by DevilXD).exe",
+      "TwitchDrops"
+    ]
+  ],
   "shortcuts": [
     [
       "Twitch Drops Miner (by DevilXD).exe",
       "Twitch Drops"
     ]
+  ],
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\\settings.json\")) {",
+    "  New-Item \"$persist_dir\\settings.json\", \"$persist_dir\\cookies.jar\"",
+    "}"
+  ],
+  "persist": [
+    "cache",
+    "settings.json",
+    "cookies.jar"
   ],
   "checkver": "github",
   "autoupdate": {
