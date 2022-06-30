@@ -14,24 +14,6 @@
             "hash": "md5:eb59401a8da40051ec3b429897ae1203"
         }
     },
-    "pre_install": [
-        "$py_root = \"$dir\".Replace('\\', '\\\\')",
-        "$bit = '64'",
-        "if ($architecture -eq '32bit') { $bit = '32' }",
-        "'install-pep-514.reg', 'uninstall-pep-514.reg' | ForEach-Object {",
-        "    $py_version = ($version -split '\\.')[0..1] -join '.'",
-        "    $content = Get-Content \"$bucketsdir\\main\\scripts\\python\\$_\"",
-        "    $content = $content.Replace('$py_root', $py_root)",
-        "    $content = $content.Replace('$py_version', $py_version)",
-        "    $content = $content.Replace('$py_fullversion', $version)",
-        "    $content = $content.Replace('$py_cleanVersion', $version -replace '\\.')",
-        "    $content = $content.Replace('$py_arch', \"$bit\")",
-        "    if ($global) {",
-        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "    }",
-        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
-        "}"
-    ],
     "installer": {
         "script": [
             "Expand-DarkArchive \"$dir\\setup.exe\" \"$dir\\_tmp\"",
@@ -47,6 +29,23 @@
         ]
     },
     "post_install": [
+        "$py_root = \"$dir\".Replace('\\', '\\\\')",
+        "$bit = '64'",
+        "if ($architecture -eq '32bit') { $bit = '32' }",
+        "'install-pep-514.reg', 'uninstall-pep-514.reg' | ForEach-Object {",
+        "    $py_version = ($version -split '\\.')[0..1] -join '.'",
+        "    $content = Get-Content \"$bucketsdir\\main\\scripts\\python\\$_\"",
+        "    $content = $content.Replace('$py_root', $py_root)",
+        "    $content = $content.Replace('$py_version', $py_version)",
+        "    $content = $content.Replace('$py_fullversion', $version)",
+        "    $content = $content.Replace('$py_cleanVersion', $version -replace '\\.')",
+        "    $content = $content.Replace('$py_arch', \"$bit\")",
+        "    if ($global) {",
+        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
+        "}",
+        "",
         "python -E -s -m ensurepip -U --default-pip | Out-Null",
         "Write-Output \"`e[0m\" # Reset ansi to prevent color leak from installer",
         "",
