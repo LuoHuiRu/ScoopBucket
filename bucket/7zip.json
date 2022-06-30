@@ -13,7 +13,7 @@
             "hash": "5c6e1cc0a09de58131707c332add6e30cd299383999b8f047a90335f8066e217"
         }
     },
-    "pre_install": [
+    "post_install": [
         "$7zip_root = \"$dir\".Replace('\\', '\\\\')",
         "'7zip-install-context.reg', '7zip-uninstall-context.reg' | ForEach-Object {",
         "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\$app\\$_\"",
