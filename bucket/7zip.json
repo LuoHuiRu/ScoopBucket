@@ -1,5 +1,5 @@
 {
-    "version": "22.00",
+    "version": "22.01",
     "description": "A multi-format file archiver with high compression ratios",
     "homepage": "https://www.7-zip.org/",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "Add 7-Zip as a context menu option by running: \"$dir\\7zip-install-context.reg\"",
     "architecture": {
         "64bit": {
-            "url": "https://7-zip.org/a/7z2200-x64.msi",
-            "hash": "5c6e1cc0a09de58131707c332add6e30cd299383999b8f047a90335f8066e217"
+            "url": "https://7-zip.org/a/7z2201-x64.msi",
+            "hash": "f4afba646166999d6090b5beddde546450262dc595dddeb62132da70f70d14ca"
         }
     },
     "post_install": [
