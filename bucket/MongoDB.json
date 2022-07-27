@@ -29,10 +29,6 @@
     ],
     "bin": [
         [
-            "bin\\mongo.exe",
-            "mongo"
-        ],
-        [
             "bin\\mongod.exe",
             "mongod",
             "--config \"$dir\\bin\\mongod.cfg\""
