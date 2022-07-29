@@ -1,10 +1,10 @@
 {
-    "version": "6.1.0",
+    "version": "6.2.1",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/kovidgoyal/calibre/releases/download/v6.1.0/calibre-portable-installer-6.1.0.exe",
-    "hash": "e99a3bafe6cb164458216018c2aa571fedfa0e7a51b8dc7fb146a67da5c72b4c",
+    "url": "https://github.com/kovidgoyal/calibre/releases/download/v6.2.1/calibre-portable-installer-6.2.1.exe",
+    "hash": "437e43a3771cbaedd2ac5a7e7c1fa20b27b03eac6e3f234f94ef01545b947838",
     "installer": {
         "script": [
             "Start-Process \"$dir\\calibre-portable-installer-$version.exe\" @(\"$dir\") -Wait",
