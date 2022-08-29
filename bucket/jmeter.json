@@ -33,11 +33,7 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\bin\\user.properties\")) {",
         "  Copy-Item -Path \"$bucketsdir\\$bucket\\scripts\\$app\\user.properties\" -Destination \"$persist_dir\\bin\\user.properties\" -Force",
-        "}",
-        "Copy-Item -Path \"$dir\\bin\\jmeter.properties\" -Destination \"$dir\\bin\\jmeter.properties.original\" -Force",
-        "$contents = Get-Content \"$dir\\bin\\jmeter.properties\"",
-        "$contents = $contents.Replace(\"#language=en\", \"#language=en`nlanguage=zh_CN\")",
-        "Set-Content -Path \"$dir\\bin\\jmeter.properties\" -Value $contents -Force"
+        "}"
     ],
     "persist": [
         "lib",
