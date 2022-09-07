@@ -9,7 +9,12 @@
             "hash": "158F19C31AF986A2235ACC1C43E9F7EE895DA4E78D0758198942A3B43FF657D1"
         }
     },
-    "bin": [["docto.exe", "docto"]],
+    "bin": [
+        [
+            "docto.exe",
+            "docto"
+        ]
+    ],
     "shortcuts": [
         [
             "docto.exe",
@@ -20,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tobya/DocTo/releases/download/V$version/docto.zip"
+                "url": "https://github.com/tobya/DocTo/releases/download/V$version/docto_64.zip"
             }
         }
     }
