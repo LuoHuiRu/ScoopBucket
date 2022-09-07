@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tobya/DocTo/releases/download/V$version/docto_64.zip"
+                "url": "https://github.com/tobya/DocTo/releases/download/v$version/docto_64.zip"
             }
         }
     }
