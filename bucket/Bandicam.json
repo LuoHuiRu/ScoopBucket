@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "description": "录屏软件",
+  "homepage": "https://www.bandicam.com/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/LuoHuiRu/config/raw/master/Crack/Bandicam.7z",
+      "hash": "3F09877A0BC43C32B332D96225D83E357DECC4D20FF36B5A9020DE398F3BD86C"
+    }
+  },
+  "bin": [
+    [
+      "BandicamPortable.exe",
+      "Bandicam"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "BandicamPortable.exe",
+      "Bandicam"
+    ]
+  ],
+  "persist": "data"
+}
