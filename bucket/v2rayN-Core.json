@@ -18,7 +18,7 @@
         "if (Test-Path \"$persist_dir\\guiNConfig.json\") {",
         "    Copy-Item \"$persist_dir\\guiNConfig.json\" \"$dir\\\" | Out-Null",
         "}",
-        "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+        "if (!(Test-Path \"$persist_dir\\config.json\") -and (Test-Path \"$(appdir v2ray $global)\\current\\config.json\")) {",
         "    Copy-Item \"$(appdir v2ray $global)\\current\\config.json\" \"$dir\" | Out-Null",
         "}"
     ],
