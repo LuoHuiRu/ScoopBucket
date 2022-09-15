@@ -52,7 +52,7 @@
 |    WeChat-Devtools     | 微信开发者工具                    |
 |         wechat         | 微信                              |
 |       wechatwork       | 企业微信                          |
-|        WindTerm        | SSH 终端工具                      | 
+|        WindTerm        | SSH 终端工具                      |
 |         WinFR          | 文件恢复GUI版                     |
 |        wodeABC         | 处理office的小工具                |
 |       XCLWinKits       | wodeABC 旧版本                    |
