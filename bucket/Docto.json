@@ -11,13 +11,13 @@
     },
     "bin": [
         [
-            "docto.exe",
+            "docto_64.exe",
             "docto"
         ]
     ],
     "shortcuts": [
         [
-            "docto.exe",
+            "docto_64.exe",
             "Docto"
         ]
     ],
