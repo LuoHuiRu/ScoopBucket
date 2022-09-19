@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download3.vmware.com/software/WKST-1624-WIN-New/VMware-workstation-full-16.2.4-20089737.exe#/cosi.exe",
+            "url": "https://download3.vmware.com/software/WKST-1624-WIN/VMware-workstation-full-16.2.4-20089737.exe#/cosi.exe",
             "hash": "758f7211d631b2b5b52df7214485fe2082661e5ba18054c8d91be0d7e27dbb2f",
             "installer": {
                 "args": [
@@ -59,7 +59,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download3.vmware.com/software/WKST-$matchMajor$matchMinor$matchPatch-WIN-New/VMware-workstation-full-$version.exe#/cosi.exe",
+                "url": "https://download3.vmware.com/software/WKST-$matchMajor$matchMinor$matchPatch-WIN/VMware-workstation-full-$version.exe#/cosi.exe",
                 "hash": {
                     "url": "https://customerconnect.vmware.com/channel/public/api/v1.0/dlg/details?locale=cn_CN&downloadGroup=WKST-$matchMajor$matchMinor$matchPatch-WIN&productId=1038",
                     "mode": "json",
