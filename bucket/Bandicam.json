@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "6.0.1.2003",
   "description": "录屏软件",
   "homepage": "https://www.bandicam.com/",
   "license": "MIT",
@@ -20,6 +20,5 @@
       "BandicamPortable.exe",
       "Bandicam"
     ]
-  ],
-  "persist": "data"
+  ]
 }
