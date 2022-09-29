@@ -1,12 +1,12 @@
 {
-    "version": "9.31.0-54",
+    "version": "9.27.0-54",
     "description": "Postman™ portable app made with Portapps. A complete toolchain for API developers.",
     "homepage": "https://github.com/portapps/postman-portable",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LuoHuiRu/postman-portable/releases/download/9.31.0-54/postman-portable-win64-9.31.0-54.7z",
-            "hash": "b05dcc931164cb79a1b218544ee7ac95a87c7a9e0ae7a391ebc85a57863e7ced"
+            "url": "https://github.com/portapps/postman-portable/releases/download/9.27.0-54/postman-portable-win64-9.27.0-54.7z",
+            "hash": "A08D07A776EC98FDEA72BEB0F0FE54174EAF597F5C6353C9B09B7EC989732400"
         }
     },
     "bin": [
@@ -26,13 +26,13 @@
         "log"
     ],
     "checkver": {
-        "url": "https://github.com/LuoHuiRu/postman-portable/releases/latest",
+        "url": "https://github.com/portapps/postman-portable/releases/latest",
         "regex": "releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LuoHuiRu/postman-portable/releases/download/$version/postman-portable-win64-$version.7z",
+                "url": "https://github.com/portapps/postman-portable/releases/download/$version/postman-portable-win64-$version.7z",
                 "hash": {
                     "url": "$baseurl/checksums.txt",
                     "regex": "$sha256\\s+$basename"
