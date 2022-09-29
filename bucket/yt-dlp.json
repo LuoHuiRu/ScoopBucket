@@ -15,6 +15,11 @@
       "yt-dlp"
     ]
   ],
+  "pre_install": "if (-not (Test-Path \"$persist_dir\\yt-dlp.conf\")) { New-Item \"$dir\\yt-dlp.conf\" -ItemType file | Out-Null }",
+  "persist": [
+    "yt-dlp.conf",
+    "ytdlp_plugins"
+  ],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
