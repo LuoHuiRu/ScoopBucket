@@ -27,14 +27,14 @@
     ],
     "checkver": {
         "url": "https://github.com/portapps/postman-portable/releases/latest",
-        "regex": "([\\d.-]+)</h1>"
+        "regex": "releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/portapps/postman-portable/releases/download/$version/postman-portable-win64-$version.7z",
                 "hash": {
-                    "url": "https://github.com/portapps/postman-portable/releases/download/$version/checksums.txt",
+                    "url": "$baseurl/checksums.txt",
                     "regex": "$sha256\\s+$basename"
                 }
             }

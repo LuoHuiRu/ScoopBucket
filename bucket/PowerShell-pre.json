@@ -1,12 +1,12 @@
 {
-    "version": "7.3.0-preview.7",
+    "version": "7.3.0-preview.8",
     "description": " PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models.",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.7/PowerShell-7.3.0-preview.7-win-x64.zip#/dl.7z",
-            "hash": "6df128d2e055c2fae5a0fd2b7dfeeff3dd9c922a437ae1eda05877c43a05c085"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.0-preview.8/PowerShell-7.3.0-preview.8-win-x64.zip#/dl.7z",
+            "hash": "083cf35701e5f25fbb09a8cb24e956e327eb7b1179acd21fb0f5479782f9e9c9"
         }
     },
     "bin": [
@@ -23,15 +23,15 @@
     ],
     "checkver": {
         "url": "https://github.com/PowerShell/PowerShell/releases",
-        "regex": "/PowerShell-([\\d.]+-preview\\.[\\d])-win-x64\\.zip"
+        "regex": "releases/tag/v([\\d.]+-preview[.\\d]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip#/dl.7z",
                 "hash": {
-                    "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
-                    "regex": "$basename\\s*<ul>\\s*<li>$sha256"
+                    "url": "$baseurl/hashes.sha256",
+                    "regex": "$sha256 *$basename"
                 }
             }
         }
