@@ -1,7 +1,7 @@
 # ScoopBucket
 
 |        软件名称        | 描述                              |
-|:----------------------:|:--------------------------------- |
+| :--------------------: | :-------------------------------- |
 |          7zip          | 解压软件                          |
 |        Anaconda        | python科学包管理                  |
 |    AppiumInspector     | 移动端自动化测试                  |
@@ -57,3 +57,4 @@
 |        wodeABC         | 处理office的小工具                |
 |       XCLWinKits       | wodeABC 旧版本                    |
 |       xray-last        | 漏扫                              |
+|         yt-dlp         | 下载youtube视频                   |
