@@ -1,12 +1,12 @@
 {
-    "version": "13",
+    "version": "14",
     "description": "twitch",
     "homepage": "https://github.com/DevilXD/TwitchDropsMiner",
     "license": "mit",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DevilXD/TwitchDropsMiner/releases/download/v13/Twitch.Drops.Miner.zip",
-            "hash": "ba8ecab9cfbb29d96c99c015ba0d3e61a7d9458cb92399bdc188865369d56494",
+            "url": "https://github.com/DevilXD/TwitchDropsMiner/releases/download/v14/Twitch.Drops.Miner.zip",
+            "hash": "3d7f3a820b73fec9183e38213879214149e0d077580b1e085dc2353bd1fd7ba5",
             "extract_dir": "Twitch Drops Miner"
         }
     },
