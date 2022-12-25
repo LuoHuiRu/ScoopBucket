@@ -58,3 +58,4 @@
 |       XCLWinKits       | wodeABC 旧版本                    |
 |       xray-last        | 漏扫                              |
 |         yt-dlp         | 下载youtube视频                   |
+|       espanso          | 文本扩展器                       |
