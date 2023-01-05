@@ -1,12 +1,12 @@
 {
-    "version": "1.26.0",
+    "version": "1.26.1",
     "description": "A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
     "homepage": "https://github.com/WerWolv/ImHex",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WerWolv/ImHex/releases/download/v1.26.0/imhex-1.26.0-Windows-Portable.zip",
-            "hash": "e7dfcd7de877d6e6b55a6806177756daf923a75ba8b12f36d9854f5b9284b8e5"
+            "url": "https://github.com/WerWolv/ImHex/releases/download/v1.26.1/imhex-1.26.1-Windows-Portable.zip",
+            "hash": "9687f533c14098131438e35b41d3ff90bab67165816ead5fe5db49196aa001ff"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\imgui.ini\")) { New-Item \"$dir\\imgui.ini\" | Out-Null }",
