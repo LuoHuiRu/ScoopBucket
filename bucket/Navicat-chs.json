@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dn.navicat.com/download/navicat161_premium_cs_x64.exe",
-            "hash": "e736ea8677b72ed7839ca243d16cacd23e882420efee3cf1d96d12faecf5c55e"
+            "hash": "70a4d5c64130953f13e852f79afe21fb07e3689ad24279552e5fede8d8d58ced"
         },
         "32bit": {
             "url": "https://dn.navicat.com/download/navicat161_premium_cs_x86.exe",
