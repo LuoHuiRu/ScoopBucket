@@ -1,5 +1,5 @@
 {
-    "version": "13.1.1.54688",
+    "version": "13.2.0.55335",
     "description": "Sunlogin by Oray",
     "homepage": "https://sunlogin.oray.com/",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl-cdn.oray.com/sunlogin/windows/SunloginClient_13.1.1.54688_x64.exe#/Sunlogin.exe",
-            "hash": "96342f73c844f5d0d217497b3f3a003fba74b3c0c63e06d1331509bf55b9eaa3"
+            "url": "https://dl-cdn.oray.com/sunlogin/windows/SunloginClient_13.2.0.55335_x64.exe#/Sunlogin.exe",
+            "hash": "911e74132fc9b40282025bc9e6014c38a454cb07ec0c996f95e99f73be49a32f"
         }
     },
     "installer": {
