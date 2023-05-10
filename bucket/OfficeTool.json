@@ -1,12 +1,12 @@
 {
-    "version": "10.1.3.4",
+    "version": "10.1.7.1",
     "description": "Image uploader/manager",
     "homepage": "https://github.com/YerongAI/Office-Tool",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.1.3.4/Office_Tool_v10.1.3.4.zip",
-            "hash": "bd0f20b98c002637a4301961e70a0cb2c19d873c446841c8d66ab6315d06c8e7",
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.1.7.1/Office_Tool_v10.1.7.1_x64.zip",
+            "hash": "0c21f109c2ee52f10727bffd0a364cb4fcea295bce7dd50648bc424c90e27da4",
             "extract_dir": "Office Tool"
         }
     },
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version.zip",
+                "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version_x64.zip",
                 "hash": {
                     "url": "https://github.com/YerongAI/Office-Tool/releases/tag/v$version/",
-                    "regex": "$basename</td>\\s<td align=\"left\">$sha256"
+                    "regex": "$basename</td>\\n<td align=\"left\">$sha256"
                 }
             }
         }
