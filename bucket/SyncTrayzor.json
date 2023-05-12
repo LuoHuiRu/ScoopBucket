@@ -4,7 +4,7 @@
   "homepage": "https://github.com/canton7/SyncTrayzor",
   "license": "MIT",
   "suggest": {
-    "core": "extra/syncthing"
+    "core": "scoopbucket/syncthing"
   },
   "architecture": {
     "64bit": {
