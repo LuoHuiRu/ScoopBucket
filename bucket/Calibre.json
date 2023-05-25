@@ -16,6 +16,10 @@
         [
             "calibre-portable.exe",
             "calibre"
+        ],
+        [
+            "Calibre\\calibre-debug.exe",
+            "calibre-debug"
         ]
     ],
     "shortcuts": [
