@@ -40,7 +40,7 @@
         "Set-Content -Path \"$dir\\bin\\jmeter.properties\" -Value $contents -Force"
     ],
     "persist": [
-        "lib",
+        "Lhrlib",
         "bin\\user.properties",
         "bin\\reportgenerator.properties",
         "bin\\report-template-zh"
