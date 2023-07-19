@@ -39,8 +39,11 @@
         "$contents = $contents.Replace(\"#language=en\", \"#language=en`nlanguage=zh_CN\")",
         "Set-Content -Path \"$dir\\bin\\jmeter.properties\" -Value $contents -Force"
     ],
+    "post_install": [
+        "Copy-Item -Path \"$dir\\lib.original\\*\" -Destination \"$dir\\lib\" -Recurse -Force"
+    ],
     "persist": [
-        "Lhrlib",
+        "lib",
         "bin\\user.properties",
         "bin\\reportgenerator.properties",
         "bin\\report-template-zh"
