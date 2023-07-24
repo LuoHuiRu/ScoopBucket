@@ -1,12 +1,12 @@
 {
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "OpenHashTab 是一个 shell 扩展，用于在文件属性处计算和检查文件哈希",
     "homepage": "https://github.com/namazso/OpenHashTab",
     "license": "Microsoft",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/namazso/OpenHashTab/releases/download/v3.0.3/OpenHashTab_setup.exe",
-            "hash": "2b06834c9f6cfadc27bd939bdbd6c6917d7984eecdc876836806bce2c7356af7"
+            "url": "https://github.com/namazso/OpenHashTab/releases/download/v3.0.4/OpenHashTab_setup.exe",
+            "hash": "9966e3ed6693dfc42904a2aaa1b294a2cd1edd059ef795729a76956cc21cd239"
         }
     },
     "installer": {
