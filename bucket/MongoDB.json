@@ -1,5 +1,5 @@
 {
-    "version": "7.1.0-rc0",
+    "version": "7.1.0-rc1",
     "description": "A document database with the scalability and flexibility.",
     "homepage": "https://www.mongodb.org",
     "license": {
@@ -14,9 +14,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.1.0-rc0.zip",
-            "hash": "baf0bc185f9dbc32b81e4e4dcae581b06c1f9756172344fd2c8307f5b04ce61d",
-            "extract_dir": "mongodb-win32-x86_64-windows-7.1.0-rc0"
+            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.1.0-rc1.zip",
+            "hash": "4fbc101e4a0e753b2eeeb9103299a6ef8f66a05150e4260259a5f9f219867e33",
+            "extract_dir": "mongodb-win32-x86_64-windows-7.1.0-rc1"
         }
     },
     "pre_install": [
