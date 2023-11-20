@@ -9,13 +9,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\xml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\xml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.asp\OpenWithProgids]
@@ -27,13 +27,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.asp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.asp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.asp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.aspx\OpenWithProgids]
@@ -45,13 +45,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.aspx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.aspx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.aspx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bash\OpenWithProgids]
@@ -63,13 +63,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bash_login\OpenWithProgids]
@@ -81,13 +81,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_login\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_login\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_login\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bash_logout\OpenWithProgids]
@@ -99,13 +99,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_logout\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_logout\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_logout\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bash_profile\OpenWithProgids]
@@ -117,13 +117,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_profile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_profile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bash_profile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bashrc\OpenWithProgids]
@@ -135,13 +135,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bashrc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bashrc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bashrc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bib\OpenWithProgids]
@@ -153,13 +153,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bib\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bib\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bib\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.bowerrc\OpenWithProgids]
@@ -171,13 +171,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bowerrc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\bower.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\bower.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bowerrc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.bowerrc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.c++\OpenWithProgids]
@@ -189,13 +189,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c++\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c++\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c++\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.c\OpenWithProgids]
@@ -207,13 +207,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\c.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\c.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.c\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cc\OpenWithProgids]
@@ -225,13 +225,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cfg\OpenWithProgids]
@@ -243,13 +243,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cfg\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cfg\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cfg\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cjs\OpenWithProgids]
@@ -261,13 +261,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cjs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\javascript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\javascript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cjs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cjs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.clj\OpenWithProgids]
@@ -279,13 +279,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clj\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clj\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clj\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cljs\OpenWithProgids]
@@ -297,13 +297,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cljx\OpenWithProgids]
@@ -315,13 +315,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cljx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.clojure\OpenWithProgids]
@@ -333,13 +333,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clojure\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clojure\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.clojure\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cls\OpenWithProgids]
@@ -351,13 +351,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cls\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cls\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cls\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.code-workspace\OpenWithProgids]
@@ -369,13 +369,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.code-workspace\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.code-workspace\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.code-workspace\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cmake\OpenWithProgids]
@@ -387,13 +387,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cmake\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cmake\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cmake\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.coffee\OpenWithProgids]
@@ -405,13 +405,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.coffee\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.coffee\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.coffee\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.config\OpenWithProgids]
@@ -423,13 +423,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.config\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.config\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.config\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.containerfile\OpenWithProgids]
@@ -441,13 +441,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.containerfile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.containerfile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.containerfile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cpp\OpenWithProgids]
@@ -459,13 +459,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cpp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cpp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cpp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cs\OpenWithProgids]
@@ -477,13 +477,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\csharp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\csharp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cshtml\OpenWithProgids]
@@ -495,13 +495,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cshtml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cshtml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cshtml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.csproj\OpenWithProgids]
@@ -513,13 +513,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csproj\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\xml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\xml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csproj\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csproj\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.css\OpenWithProgids]
@@ -531,13 +531,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.css\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\css.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\css.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.css\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.css\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.csv\OpenWithProgids]
@@ -549,13 +549,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csv\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csv\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csv\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.csx\OpenWithProgids]
@@ -567,13 +567,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\csharp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\csharp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.csx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ctp\OpenWithProgids]
@@ -585,13 +585,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ctp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ctp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ctp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cxx\OpenWithProgids]
@@ -603,13 +603,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cxx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cxx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.cxx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.dart\OpenWithProgids]
@@ -621,13 +621,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dart\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dart\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dart\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.diff\OpenWithProgids]
@@ -639,13 +639,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.diff\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.diff\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.diff\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.dockerfile\OpenWithProgids]
@@ -657,13 +657,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dockerfile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dockerfile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dockerfile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.dot\OpenWithProgids]
@@ -675,13 +675,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dot\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dot\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dot\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.dtd\OpenWithProgids]
@@ -693,13 +693,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dtd\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\xml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\xml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dtd\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.dtd\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.editorconfig\OpenWithProgids]
@@ -711,13 +711,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.editorconfig\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.editorconfig\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.editorconfig\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.edn\OpenWithProgids]
@@ -729,13 +729,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.edn\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.edn\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.edn\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.erb\OpenWithProgids]
@@ -747,13 +747,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.erb\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\ruby.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\ruby.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.erb\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.erb\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.eyaml\OpenWithProgids]
@@ -765,13 +765,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyaml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\yaml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\yaml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyaml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyaml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.eyml\OpenWithProgids]
@@ -783,13 +783,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\yaml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\yaml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.eyml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.fs\OpenWithProgids]
@@ -801,13 +801,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.fsi\OpenWithProgids]
@@ -819,13 +819,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsi\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsi\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsi\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.fsscript\OpenWithProgids]
@@ -837,13 +837,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsscript\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsscript\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsscript\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.fsx\OpenWithProgids]
@@ -855,13 +855,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.fsx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.gemspec\OpenWithProgids]
@@ -873,13 +873,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gemspec\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\ruby.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\ruby.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gemspec\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gemspec\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.gitattributes\OpenWithProgids]
@@ -891,13 +891,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitattributes\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitattributes\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitattributes\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.gitconfig\OpenWithProgids]
@@ -909,13 +909,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitconfig\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitconfig\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitconfig\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.gitignore\OpenWithProgids]
@@ -927,13 +927,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitignore\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitignore\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gitignore\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.go\OpenWithProgids]
@@ -945,13 +945,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.go\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\go.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\go.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.go\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.go\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.gradle\OpenWithProgids]
@@ -963,13 +963,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gradle\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gradle\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.gradle\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.groovy\OpenWithProgids]
@@ -981,13 +981,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.groovy\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.groovy\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.groovy\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.h\OpenWithProgids]
@@ -999,13 +999,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\c.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\c.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.handlebars\OpenWithProgids]
@@ -1017,13 +1017,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.handlebars\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.handlebars\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.handlebars\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.hbs\OpenWithProgids]
@@ -1035,13 +1035,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hbs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hbs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hbs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.h++\OpenWithProgids]
@@ -1053,13 +1053,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h++\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h++\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.h++\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.hh\OpenWithProgids]
@@ -1071,13 +1071,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hh\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hh\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hh\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.hpp\OpenWithProgids]
@@ -1089,13 +1089,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hpp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hpp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hpp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgids]
@@ -1107,13 +1107,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.htm\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.htm\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.htm\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgids]
@@ -1125,13 +1125,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.html\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.html\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.html\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.hxx\OpenWithProgids]
@@ -1143,13 +1143,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hxx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\cpp.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\cpp.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hxx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.hxx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ini\OpenWithProgids]
@@ -1161,13 +1161,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ini\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\config.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ini\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ini\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ipynb\OpenWithProgids]
@@ -1179,13 +1179,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ipynb\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ipynb\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ipynb\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jade\OpenWithProgids]
@@ -1197,13 +1197,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jade\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\jade.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\jade.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jade\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jade\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jav\OpenWithProgids]
@@ -1215,13 +1215,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jav\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\java.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\java.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jav\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jav\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.java\OpenWithProgids]
@@ -1233,13 +1233,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.java\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\java.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\java.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.java\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.java\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.js\OpenWithProgids]
@@ -1251,13 +1251,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.js\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\javascript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\javascript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.js\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.js\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jsx\OpenWithProgids]
@@ -1269,13 +1269,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\react.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\react.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jscsrc\OpenWithProgids]
@@ -1287,13 +1287,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jscsrc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\javascript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\javascript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jscsrc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jscsrc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jshintrc\OpenWithProgids]
@@ -1305,13 +1305,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshintrc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\javascript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\javascript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshintrc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshintrc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jshtm\OpenWithProgids]
@@ -1323,13 +1323,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshtm\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshtm\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jshtm\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.json\OpenWithProgids]
@@ -1341,13 +1341,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.json\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\json.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\json.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.json\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.json\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.jsp\OpenWithProgids]
@@ -1359,13 +1359,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.jsp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.less\OpenWithProgids]
@@ -1377,13 +1377,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.less\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\less.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\less.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.less\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.less\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.log\OpenWithProgids]
@@ -1395,13 +1395,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.log\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.log\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.log\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.lua\OpenWithProgids]
@@ -1413,13 +1413,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.lua\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.lua\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.lua\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.m\OpenWithProgids]
@@ -1431,13 +1431,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.m\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.m\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.m\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.makefile\OpenWithProgids]
@@ -1449,13 +1449,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.makefile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.makefile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.makefile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.markdown\OpenWithProgids]
@@ -1467,13 +1467,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.markdown\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.markdown\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.markdown\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.md\OpenWithProgids]
@@ -1485,13 +1485,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.md\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.md\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.md\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mdoc\OpenWithProgids]
@@ -1503,13 +1503,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdoc\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdoc\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdoc\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mdown\OpenWithProgids]
@@ -1521,13 +1521,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdown\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdown\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdown\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mdtext\OpenWithProgids]
@@ -1539,13 +1539,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtext\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtext\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtext\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mdtxt\OpenWithProgids]
@@ -1557,13 +1557,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtxt\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtxt\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdtxt\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mdwn\OpenWithProgids]
@@ -1575,13 +1575,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdwn\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdwn\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mdwn\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mk\OpenWithProgids]
@@ -1593,13 +1593,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mk\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mk\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mk\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mkd\OpenWithProgids]
@@ -1611,13 +1611,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkd\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkd\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkd\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mkdn\OpenWithProgids]
@@ -1629,13 +1629,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkdn\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\markdown.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkdn\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mkdn\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ml\OpenWithProgids]
@@ -1647,13 +1647,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mli\OpenWithProgids]
@@ -1665,13 +1665,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mli\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mli\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mli\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mjs\OpenWithProgids]
@@ -1683,13 +1683,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mjs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\javascript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\javascript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mjs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.mjs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.npmignore\OpenWithProgids]
@@ -1701,13 +1701,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.npmignore\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.npmignore\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.npmignore\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.php\OpenWithProgids]
@@ -1719,13 +1719,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.php\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\php.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\php.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.php\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.php\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.phtml\OpenWithProgids]
@@ -1737,13 +1737,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.phtml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.phtml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.phtml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pl\OpenWithProgids]
@@ -1755,13 +1755,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pl6\OpenWithProgids]
@@ -1773,13 +1773,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl6\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl6\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pl6\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.plist\OpenWithProgids]
@@ -1791,13 +1791,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.plist\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\plist.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\plist.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.plist\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.plist\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pm\OpenWithProgids]
@@ -1809,13 +1809,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pm6\OpenWithProgids]
@@ -1827,13 +1827,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm6\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm6\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pm6\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pod\OpenWithProgids]
@@ -1845,13 +1845,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pod\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pod\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pod\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pp\OpenWithProgids]
@@ -1863,13 +1863,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pp\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pp\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pp\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.profile\OpenWithProgids]
@@ -1881,13 +1881,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.profile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.profile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.profile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.properties\OpenWithProgids]
@@ -1899,13 +1899,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.properties\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.properties\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.properties\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ps1\OpenWithProgids]
@@ -1917,13 +1917,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ps1\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\powershell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\powershell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ps1\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ps1\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.psd1\OpenWithProgids]
@@ -1935,13 +1935,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psd1\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\powershell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\powershell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psd1\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psd1\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.psgi\OpenWithProgids]
@@ -1953,13 +1953,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psgi\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psgi\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psgi\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.psm1\OpenWithProgids]
@@ -1971,13 +1971,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psm1\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\powershell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\powershell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psm1\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.psm1\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.py\OpenWithProgids]
@@ -1989,13 +1989,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.py\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\python.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\python.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.py\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.py\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pyi\OpenWithProgids]
@@ -2007,13 +2007,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pyi\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\python.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\python.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pyi\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.pyi\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.r\OpenWithProgids]
@@ -2025,13 +2025,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.r\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.r\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.r\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rb\OpenWithProgids]
@@ -2043,13 +2043,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rb\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\ruby.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\ruby.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rb\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rb\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rhistory\OpenWithProgids]
@@ -2061,13 +2061,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rhistory\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rhistory\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rhistory\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rprofile\OpenWithProgids]
@@ -2079,13 +2079,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rprofile\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rprofile\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rprofile\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rs\OpenWithProgids]
@@ -2097,13 +2097,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rst\OpenWithProgids]
@@ -2115,13 +2115,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rst\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rst\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rst\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rt\OpenWithProgids]
@@ -2133,13 +2133,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rt\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rt\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.rt\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.sass\OpenWithProgids]
@@ -2151,13 +2151,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sass\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\sass.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\sass.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sass\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sass\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.scss\OpenWithProgids]
@@ -2169,13 +2169,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.scss\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\sass.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\sass.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.scss\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.scss\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.sh\OpenWithProgids]
@@ -2187,13 +2187,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sh\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sh\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sh\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgids]
@@ -2205,13 +2205,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.shtml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.shtml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.shtml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.sql\OpenWithProgids]
@@ -2223,13 +2223,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sql\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\sql.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\sql.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sql\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.sql\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.svg\OpenWithProgids]
@@ -2241,13 +2241,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svg\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svg\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svg\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.svgz\OpenWithProgids]
@@ -2259,13 +2259,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svgz\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svgz\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.svgz\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.t\OpenWithProgids]
@@ -2277,13 +2277,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.t\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.t\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.t\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.tex\OpenWithProgids]
@@ -2295,13 +2295,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tex\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tex\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tex\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ts\OpenWithProgids]
@@ -2313,13 +2313,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ts\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\typescript.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\typescript.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ts\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.ts\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.toml\OpenWithProgids]
@@ -2331,13 +2331,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.toml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.toml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.toml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.tsx\OpenWithProgids]
@@ -2349,13 +2349,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tsx\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\react.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\react.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tsx\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.tsx\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.txt\OpenWithProgids]
@@ -2367,13 +2367,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.txt\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.txt\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.txt\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.vb\OpenWithProgids]
@@ -2385,13 +2385,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vb\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vb\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vb\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.vue\OpenWithProgids]
@@ -2403,13 +2403,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vue\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\vue.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\vue.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vue\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.vue\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.wxi\OpenWithProgids]
@@ -2421,13 +2421,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxi\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxi\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxi\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.wxl\OpenWithProgids]
@@ -2439,13 +2439,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxl\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxl\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxl\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.wxs\OpenWithProgids]
@@ -2457,13 +2457,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxs\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\default.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\default.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxs\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.wxs\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.xaml\OpenWithProgids]
@@ -2475,13 +2475,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xaml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\xml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\xml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xaml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xaml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgids]
@@ -2493,13 +2493,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xhtml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\html.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\html.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xhtml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xhtml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.xml\OpenWithProgids]
@@ -2511,13 +2511,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\xml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\xml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.xml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.yaml\OpenWithProgids]
@@ -2529,13 +2529,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yaml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\yaml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\yaml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yaml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yaml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.yml\OpenWithProgids]
@@ -2547,13 +2547,13 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yml\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\yaml.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\yaml.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yml\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.yml\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.zsh\OpenWithProgids]
@@ -2565,11 +2565,11 @@ Windows Registry Editor Version 5.00
 "AppUserModelID"="Microsoft.CodeOSS"
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.zsh\DefaultIcon]
-@="\"$vscode_dir\\resources\\app\\resources\\win32\\shell.ico\""
+@="\"&dir\\resources\\app\\resources\\win32\\shell.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.zsh\shell\open]
-"Icon"="\"$vscode\""
+"Icon"="\"&exe\""
 
 [HKEY_CURRENT_USER\Software\Classes\CodeOSS.zsh\shell\open\command]
-@="\"$vscode\" \"%1\""
+@="\"&exe\" \"%1\""
 

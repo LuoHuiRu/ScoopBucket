@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
-[-HKEY_CURRENT_USER\Software\Classes\*\shell\&vscode_name]
-[-HKEY_CURRENT_USER\Software\Classes\*\shell\&vscode_name\command]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&vscode_name]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&vscode_name\command]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&vscode_name]
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&vscode_name\command]
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\&name]
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\&name\command]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&name]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\&name\command]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&name]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&name\command]

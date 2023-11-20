@@ -1,19 +1,19 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Classes\*\shell\$vscode_name]
-@="$vscode_name"
-"Icon"="$vscode"
-[HKEY_CURRENT_USER\Software\Classes\*\shell\$vscode_name\command]
-@="\"$vscode\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\*\shell\&name]
+@="&name"
+"Icon"="&exe"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\&name\command]
+@="\"&exe\" \"%1\""
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\shell\$vscode_name]
-@="$vscode_name"
-"Icon"="$vscode"
-[HKEY_CURRENT_USER\Software\Classes\Directory\shell\$vscode_name\command]
-@="\"$vscode\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\&name]
+@="&name"
+"Icon"="&exe"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\&name\command]
+@="\"&exe\" \"%1\""
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\$vscode_name]
-@="$vscode_name"
-"Icon"="$vscode"
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\$vscode_name\command]
-@="\"$vscode\" \"%V\""
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&name]
+@="&name"
+"Icon"="&exe"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\&name\command]
+@="\"&exe\" \"%V\""
