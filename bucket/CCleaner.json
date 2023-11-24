@@ -1,5 +1,5 @@
 {
-    "version": "6.17.10746",
+    "version": "6.18.10838",
     "description": "Number-one tool for cleaning PC",
     "homepage": "https://www.ccleaner.com/ccleaner",
     "license": "Freeware",
@@ -15,8 +15,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://download.ccleaner.com/portable/ccsetup617.zip",
-            "hash": "a97fccb41792c7280c68e4ddf8fa3a0858295e914e4698511c6b7853ef3c3382",
+            "url": "https://download.ccleaner.com/portable/ccsetup618.zip",
+            "hash": "e1b5f1df474396a601884f344f0a06fd2e87511d7fa46b05747a83f4536a5fef",
             "bin": [
                 [
                     "CCleaner64.exe",
