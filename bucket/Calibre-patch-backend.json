@@ -35,9 +35,7 @@
     "  Write-Host '未安装Calibre，请安装Calibre (scoop install Calibre)' -ForegroundColor DarkYellow",
     "}"
   ],
-  "checkver": {
-    "url": "https://github.com/Cirn09/calibre-do-not-translate-my-path"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
