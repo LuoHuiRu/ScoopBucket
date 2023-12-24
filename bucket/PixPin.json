@@ -26,8 +26,8 @@
     "Config"
   ],
   "checkver": {
-    "url": "https://txc.qq.com/products/614512",
-    "regex": "PixPin_([\\d.]+)\\.zip"
+    "url": "https://pixpinapp.com/assets/index.md.f3de7cf0.lean.js",
+    "regex": "PixPin_([\\d.]+)\\.exe"
   },
   "autoupdate": {
     "architecture": {
