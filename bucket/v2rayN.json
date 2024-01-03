@@ -1,5 +1,5 @@
 {
-    "version": "6.31",
+    "version": "6.32",
     "description": "A V2Ray client for Windows, support Xray & v2fly core",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
         ".NET 6.0 Desktop Runtime": "extras/windowsdesktop-runtime-lts",
         "v2fly-core": "main/v2ray"
     },
-    "url": "https://github.com/2dust/v2rayN/releases/download/6.31/v2rayN.zip",
-    "hash": "793361e439f6acdda59219595b0d8d15032fd173e2369fbd2f768bdc20dcb531",
+    "url": "https://github.com/2dust/v2rayN/releases/download/6.32/v2rayN.zip",
+    "hash": "1fd3ef826a9ca50382aba7c24834f604e96f00671d19820e5c63fd4c627e23d9",
     "extract_dir": "v2rayN",
     "pre_install": [
         "foreach ($form in @('*.exe', '*.dat')) {",
