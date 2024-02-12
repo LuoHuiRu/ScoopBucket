@@ -1,12 +1,12 @@
 {
-    "version": "1.11",
+    "version": "1.12",
     "description": "Simple utility for converting a Microsoft Word Document '.doc' and Microsoft Excel '.xls' files to any other supported format such as .txt .csv .rtf .pdf.",
     "homepage": "https://github.com/tobya/DocTo",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tobya/DocTo/releases/download/v1.11/docto_64.zip",
-            "hash": "831c018b48a3589ff32e184642afe2e86ebca8dff3bc7c9f1cecec31fc2b4e4d"
+            "url": "https://github.com/tobya/DocTo/releases/download/v1.12/docto_64.zip",
+            "hash": "7800b453aa6467e33334a4abee5402038eefe5c902ded4dcd2e075c9285fd9a9"
         }
     },
     "bin": [
