@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/2.8.9/goby-win-x64-2.8.9-Community.zip",
-            "hash": "f0381f584073a36e24036740c484ade03bfc282d16c52fb2c271772c6384eb9a",
+            "hash": "03D944AE848147D89151B58F696D8201296B8DAB78D7DF8B113C9E861E0DCC06",
             "extract_dir": "goby-win-x64-2.8.9"
         }
     },
