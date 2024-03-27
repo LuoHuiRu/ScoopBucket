@@ -48,7 +48,7 @@
     ],
     "persist": "texmf-config",
     "checkver": {
-        "regex": "Current release: TeX Live ([\\d]+)"
+        "regex": "TeX Live ([\\d]+) is available"
     },
     "autoupdate": {
         "architecture": {
