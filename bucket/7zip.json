@@ -1,5 +1,5 @@
 {
-    "version": "24.03",
+    "version": "24.04",
     "description": "A multi-format file archiver with high compression ratios",
     "homepage": "https://www.7-zip.org/",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "Add 7-Zip as a context menu option by running: \"$dir\\7zip-install-context.reg\"",
     "architecture": {
         "64bit": {
-            "url": "https://7-zip.org/a/7z2403-x64.msi",
-            "hash": "0e2774898e1db888386cab8f65c7973a223648decf33e890064573f7755acf30"
+            "url": "https://7-zip.org/a/7z2404-x64.msi",
+            "hash": "6a9088743ae698b6c329576769d131a29ee7abb85ac36972fffaf21d8bf8dbaa"
         }
     },
     "post_install": [
