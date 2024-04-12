@@ -1,12 +1,12 @@
 {
-    "version": "7.4.1",
+    "version": "7.4.2",
     "description": " PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models.",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/PowerShell-7.4.1-win-x64.zip#/dl.7z",
-            "hash": "32dfa0d6b59538e28631549f04d3f74f3d3a24bc6eaf3aa7ab0b74f94ecc026e"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.2/PowerShell-7.4.2-win-x64.zip#/dl.7z",
+            "hash": "1e43548e1000ef8220a24da3ea5113b140dd1b2301db03d732b48b980a887656"
         }
     },
     "bin": "pwsh.exe",
