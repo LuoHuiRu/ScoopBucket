@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://api.reqable.com/download?platform=windows&arch=x86_64&ext=zip#/dl.7z",
-            "hash": "7548B6E6F62915D4C05AC7B53C4D4964BD689EF1DE2CEAC78C84798CC6EF59E4"
+            "hash": "f1923d23c32664f283f7422f84f663359817dbf7d5d7aaec5ec648dca48f10d9"
         }
     },
     "bin": [
