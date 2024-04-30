@@ -1,0 +1,42 @@
+{
+  "version": "0.7.2.7",
+  "description": "1Remote is a modern personal remote session manager and launcher. It is a single place to manage all your remote sessions supporting number of different protocols.",
+  "homepage": "https://github.com/1Remote/1Remote",
+  "license": "License",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.8/PRemoteM.zip",
+      "hash": "2C3BB69E165249681225283E8208573C2E6691467FF1B83E99EB475837B6D36E"
+    }
+  },
+  "post_install": [
+    "if (!(Test-Path \"$persist_dir\\PRemoteM.db\")) {",
+    "  New-Item -Path \"$persist_dir\\PRemoteM.db\" -Type File",
+    "  New-Item -Path \"$persist_dir\\PRemoteM.json\" -Type File",
+    "}"
+  ],
+  "bin": [
+    [
+      "PRemoteM.exe",
+      "PRemoteM"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "PRemoteM.exe",
+      "1Remote"
+    ]
+  ],
+  "persist": [
+    "PRemoteM.db",
+    "PRemoteM.json"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/1Remote/1Remote/releases/download/$version/PRemoteM.zip"
+      }
+    }
+  }
+}
