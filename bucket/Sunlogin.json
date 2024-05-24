@@ -1,5 +1,5 @@
 {
-    "version": "15.5.0.61000",
+    "version": "15.6.0.64434",
     "description": "Sunlogin by Oray",
     "homepage": "https://sunlogin.oray.com/",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_15.5.0.61000.exe#/Sunlogin.exe",
-            "hash": "md5:4c4de8cd7ccffc67cf928c0e90c04dff"
+            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_15.6.0.64434.exe#/Sunlogin.exe",
+            "hash": "md5:51564a75ec9af8ba52b283b60ed719fb"
         }
     },
     "installer": {
