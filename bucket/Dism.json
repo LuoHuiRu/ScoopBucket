@@ -31,12 +31,4 @@
         ]
     ],
     "persist": "Config\\Config.ini"
-    // "checkver": "github",
-    // "autoupdate": {
-    //     "architecture": {
-    //         "64bit": {
-    //             "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version.zip"
-    //         }
-    //     }
-    // }
 }
