@@ -1,16 +1,17 @@
 {
+  "version": "1.1.9.1.20230722",
   "homepage": "https://github.com/huiyadanli/PasteEx",
   "description": "Paste the contents of the clipboard into files.",
-  "version": "1.1.9.1",
   "license": {
     "identifier": "GPL-3.0",
     "url": "https://github.com/huiyadanli/PasteEx/blob/master/LICENSE"
   },
+  "notes": "Please open app for initialization.",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/huiyadanli/PasteEx/releases/download/v1.1.9.1/PasteEx.v1.1.9.1.zip#/dl.7z",
-      "hash": "6b6698b1e43b4808568c9dfdcd70a6d5ccb9607b5ce94875895f5e7e42ad5633",
-      "extract_dir": "PasteEx"
+      "url": "https://github.com/LuoHuiRu/Binary/raw/master/PasteEx/PasteEx-Windows-20230722.zip",
+      "hash": "A0357F05ABDE9F28843375F533AC1EEB3C698317FAE1765BB57185C3E6708D35",
+      "extract_dir": "Release"
     }
   },
   "bin": "PasteEx.exe",
@@ -20,14 +21,5 @@
       "PasteEx.exe",
       "PasteEx"
     ]
-  ],
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/huiyadanli/PasteEx/releases/download/v$version/PasteEx.v$version.zip#/dl.7z"
-      }
-    }
-  },
-  "notes": "Please open app for initialization."
+  ]
 }
