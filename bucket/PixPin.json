@@ -1,12 +1,12 @@
 {
-    "version": "1.8.15",
+    "version": "1.8.16",
     "description": "截图/贴图/长截图/文字识别/标注",
     "homepage": "https://pixpinapp.com/",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_1.8.15.0.zip",
-            "hash": "8f505e6d4e2605ea7eca2fb9d268c0dff921a000e077d0978e7fe8406edff58b",
+            "url": "https://download.pixpinapp.com/PixPin_1.8.16.0.zip",
+            "hash": "e23e82bd50f1740e328f897bb03d69903ddbb4761834a217dd1188a838b5e372",
             "extract_dir": "PixPin"
         }
     },
