@@ -24,8 +24,8 @@
     ],
     "persist": "Config",
     "checkver": {
-        "url": "https://pixpinapp.com/change-log/1.8.10.html",
-        "regex": "/change-log/([\\d.]+)\""
+        "url": "https://pixpinapp.com/change-log/instructions",
+        "regex": "/change-log/([\\d.]+).html"
     },
     "autoupdate": {
         "architecture": {
