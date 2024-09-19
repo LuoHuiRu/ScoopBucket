@@ -5,8 +5,13 @@
     "license": "License",
     "architecture": {
         "64bit": {
+<<<<<<< Updated upstream
             "url": "https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240608-049eb1.zip",
             "hash": "30342b531dc1c6101116d7196b11204870362d0fddf7bf011a15efc65e25fa7c"
+=======
+            "url": "https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240820-ca63c2.zip",
+            "hash": "5AB122D44AFA485935B69FAEFCDD4C3273BCA5FA1E9CD928CA0CB7DBDC3B947C"
+>>>>>>> Stashed changes
         }
     },
     "pre_install": [
@@ -44,7 +49,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240608-049eb1.zip",
+                "url": "",
                 "hash": {
                     "url": "https://community.chocolatey.org/packages/1remote/$version#files",
                     "regex": "\\| sha256: $sha256"
