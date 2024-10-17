@@ -1,17 +1,12 @@
 {
-    "version": "1.0.0.20240904",
+    "version": "1.0.0",
     "description": "1Remote is a modern personal remote session manager and launcher. It is a single place to manage all your remote sessions supporting number of different protocols.",
     "homepage": "https://github.com/1Remote/1Remote",
     "license": "License",
     "architecture": {
         "64bit": {
-<<<<<<< Updated upstream
-            "url": "https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240608-049eb1.zip",
-            "hash": "30342b531dc1c6101116d7196b11204870362d0fddf7bf011a15efc65e25fa7c"
-=======
-            "url": "https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240820-ca63c2.zip",
-            "hash": "5AB122D44AFA485935B69FAEFCDD4C3273BCA5FA1E9CD928CA0CB7DBDC3B947C"
->>>>>>> Stashed changes
+            "url": "https://github.com/1Remote/1Remote/releases/download/1.0.0/1Remote-1.0.0-net6-x64.zip",
+            "hash": "09F62793D8B59EAAA4AE781DC04A2882C46EB50A36A7F567A38F99497FD5EEF5"
         }
     },
     "pre_install": [
@@ -42,18 +37,11 @@
         "kitty",
         "Protocols"
     ],
-    "checkver": {
-        "url": "https://community.chocolatey.org/packages/1remote/#versionhistory",
-        "regex": ">1Remote ([\\d.]+)<"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "",
-                "hash": {
-                    "url": "https://community.chocolatey.org/packages/1remote/$version#files",
-                    "regex": "\\| sha256: $sha256"
-                }
+                "url": "https://github.com/1Remote/1Remote/releases/download/$version/1Remote-$version-net6-x64.zip"
             }
         }
     }
