@@ -1,12 +1,12 @@
 {
-    "version": "2024.12.13",
+    "version": "2024.12.23",
     "description": "yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": " Unlicense license",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.12.13/yt-dlp_win.zip",
-            "hash": "3b9488c81f15b93395d5a6343876abc7ae8a0ae7df5f2799a4b0554b41f9d143"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.12.23/yt-dlp_win.zip",
+            "hash": "a27fc1bfa39bd0eb8878aa2bd435a8a5803f2cd20d9b76aa61a4e75eed8d46d3"
         }
     },
     "bin": [
