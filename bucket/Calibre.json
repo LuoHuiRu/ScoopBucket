@@ -1,5 +1,5 @@
 {
-    "version": "7.24.0",
+    "version": "7.25.0",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
@@ -7,8 +7,8 @@
         "注意更新Calibre-patch-backend",
         "scoop reset Calibre-patch-backend"
     ],
-    "url": "https://github.com/kovidgoyal/calibre/releases/download/v7.24.0/calibre-portable-installer-7.24.0.exe",
-    "hash": "8607b6878b75df593ee61e74bb555232ab8bc119951c5e91f4a89f88223b308e",
+    "url": "https://github.com/kovidgoyal/calibre/releases/download/v7.25.0/calibre-portable-installer-7.25.0.exe",
+    "hash": "bbece8a8bd436f24294d027595351dae340595b18deebac455d618f7aac413f9",
     "installer": {
         "script": [
             "Start-Process \"$dir\\calibre-portable-installer-$version.exe\" @(\"$dir\") -Wait",
