@@ -5,8 +5,8 @@
     "license": "License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1Remote/1Remote/releases/download/1.1.1/1Remote-1.1.1-net6-x64.zip",
-            "hash": "f39886422c034176cc40053aa8ee03a5b61ceb20de8149baf974c89880376770"
+            "url": "https://github.com/1Remote/1Remote/releases/download/1.1.1/1Remote-1.1.1-net6-x64-250124.zip",
+            "hash": "b719e51b57bf077dec198b1862e67b2a68311f21828d13c0688ed7f0353a611b"
         }
     },
     "pre_install": [
