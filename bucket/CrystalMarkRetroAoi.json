@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0RC3",
+    "version": "2.0.0",
     "description": "A HDD/SSD utility software which supports a part of USB, RAID and NVMe",
     "homepage": "https://crystalmark.info/en/software/crystalmarkretro/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/CrystalMarkRetro/files/2.0.0RC3/CrystalMarkRetro2_0_0RC3Aoi.zip",
-            "hash": "sha1:782ba3ff90de4f0530aceedb4120ab1134df44d6",
+            "url": "https://sourceforge.net/projects/CrystalMarkRetro/files/2.0.0/CrystalMarkRetro2_0_0Aoi.zip",
+            "hash": "sha1:307c646c31a072f81c7043c0d55344f192b6b2e7",
             "shortcuts": [
                 [
                     "CrystalMarkRetro64A.exe",
