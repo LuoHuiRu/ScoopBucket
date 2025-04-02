@@ -1,5 +1,5 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.3",
     "description": "Text expander",
     "homepage": "https://espanso.org",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/espanso/espanso/releases/download/v2.2.1/Espanso-Win-installer-x86_64.exe",
-            "hash": "4930b0cedfe36bd885596f0c283f21c9e6fdf60a49d17771b207c7e58e89f150"
+            "url": "https://github.com/espanso/espanso/releases/download/v2.2.3/Espanso-Win-installer-x86_64.exe",
+            "hash": "01c1bdd34834aad09118c5463ee5790be3a1b6189d75221f2b06fa9555a9b78a"
         }
     },
     "innosetup": true,
