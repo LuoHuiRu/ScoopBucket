@@ -1,12 +1,12 @@
 {
-    "version": "5.32.0",
+    "version": "5.33.0",
     "description": "A platform for building proxies to bypass network restrictions.",
     "homepage": "https://www.v2fly.org/en_US/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.32.0/v2ray-windows-64.zip",
-            "hash": "3caf3e11a310be9519b79a6307347bc20f26b0ccc8c71733028547a91dcb5106"
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.33.0/v2ray-windows-64.zip",
+            "hash": "5b78077428749e6a97ad923ed3fb4d54760a3f8673c8ed7cd5ba911d5c11589e"
         }
     },
     "bin": [
