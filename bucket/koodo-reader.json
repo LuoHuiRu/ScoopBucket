@@ -1,12 +1,12 @@
 {
-    "version": "2.0.7",
+    "version": "2.0.8",
     "description": "阅读器",
     "homepage": "https://github.com/troyeguo/koodo-reader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v2.0.7/Koodo-Reader-2.0.7-x64-Win.zip",
-            "hash": "8464cdffe274a63c98bfccc7014fa7ce037d3c2b03fea77f25bc425ac0640811"
+            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v2.0.8/Koodo-Reader-2.0.8-x64-Win.zip",
+            "hash": "7996f0e2d99554d700b2b0f4140c906c0284eed7e2a06076b7168463526be9b8"
         }
     },
     "bin": [
