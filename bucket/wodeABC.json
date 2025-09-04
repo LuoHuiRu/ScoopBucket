@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_57_0.exe#/dl.7z",
-            "hash": "790a723b71187c49e78d9537585cb1d381e6901f9ee0a092f21ec5d0f9c37044"
+            "sha512": "gO9j43qVk+8/BO5X3aZOhYASgTUmea2SjVfY1OyehbRILiJQHmMChF4TF1ppaIijlMQLEtRT6f416KM2HRaN/w=="
         }
     },
     "pre_install": [
@@ -22,13 +22,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.wodeabc.com/download",
-        "regex": "wodeabc-installer-64bit-([\\d_]+)\\.exe"
+        "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/latest.yml",
+        "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$version.exe#/dl.7z"
+                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/latest.yml",
+                    "regex": "sha512: $base64"
+                }
             }
         }
     }
