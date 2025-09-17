@@ -1,13 +1,21 @@
 {
-    "version": "6_59_1",
-    "description": "这是一个非常实用的小软件，里面包含了许多常用的小功能。",
+    "version": "6.59.3",
+    "description": "这是一个关于office非常实用的小软件，里面包含了许多常用的小功能。",
     "homepage": "https://www.wodeabc.com/article/show/8002027",
-    "license": "None",
-    "note": "下载有权限，手动下载",
+    "license": "武汉市核烁科技有限公司",
+    "note": [
+        "需配置scoop config",
+        "\"private_hosts\": [",
+        "  {",
+        "    \"match\": \"https://files.domain.com/*\",",
+        "    \"headers\": \"Referer=https://domain.com/\"",
+        "  }",
+        "]"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_59_1.exe#/dl.7z",
-            "sha512": "80EF63E37A9593EF3F04EE57DDA64E858012813526792D928D57D8D4EC9E85B4482E22501E6302845E13175A696888B394C40B12D453E9FE35E8A3361D168DFF"
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_59_3.exe#/dl.7z",
+            "hash": "sha512:23c2ff23c0a2f8b40e929cbaacd4c1d0fdb22715fc582ff7dd42e0615b9e8320112a148613e4e76641a0ce29e7bd1b34d012e655ece22dfb74c6ade321b3bfbf"
         }
     },
     "pre_install": [
@@ -28,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$version.exe#/dl.7z",
+                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$underscoreVersion.exe#/dl.7z",
                 "hash": {
-                    "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/latest.yml",
-                    "regex": "sha512: $base64"
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
                 }
             }
         }
