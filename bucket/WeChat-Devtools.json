@@ -1,5 +1,5 @@
 {
-    "version": "1.06.2504060",
+    "version": "2.01.2510250",
     "description": "To help developers develop and debug Weixin Mini Programs more simply and efficiently.",
     "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=1062504060&version_type=1#/dl.7z",
-            "hash": "c8cdb234c87403266a417c784a782b69012b14683ef2358584c2751824f9a4da"
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=2012510250&version_type=1#/dl.7z",
+            "hash": "f1a27e88c117ae7e7e501cb5d28e3e10fe3b783d7593d7d7ead3d3a9cac3826a"
         }
     },
     "pre_install": "Remove-Item -R -Path \"$dir\\`$PLUGINSDIR\"",
