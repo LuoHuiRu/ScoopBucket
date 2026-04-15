@@ -1,12 +1,12 @@
 {
-    "version": "2.1.5.0",
+    "version": "3.1.0.6",
     "description": "截图/贴图/长截图/文字识别/标注",
     "homepage": "https://pixpinapp.com/",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_zh-cn_2.1.5.0.zip",
-            "hash": "6818292336027977b4d0d252047f7a6a0c9e63d8373015aed21348d2941a63d3",
+            "url": "https://download.pixpinapp.com/PixPin_cn_zh-cn_3.1.0.6.zip",
+            "hash": "ef201927de365086c031f6027d1dfff5f20837cff44db4d84aafb0481d959f7a",
             "extract_dir": "PixPin"
         }
     },
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.pixpinapp.com/PixPin_zh-cn_$version.zip",
+                "url": "https://download.pixpinapp.com/PixPin_cn_zh-cn_$version.zip",
                 "hash": {
                     "url": "https://pixpinapp.com/change-log/$version.html",
                     "regex": "Windows便携版.*?$sha1"
