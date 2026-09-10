@@ -1,5 +1,5 @@
 {
-    "version": "5.0.10",
+    "version": "5.0.11",
     "homepage": "https://work.weixin.qq.com/",
     "description": "Connection Makes a Smarter Business",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z",
-            "hash": "d46b1cc2603c70ff9cccd85998eed0c0d61f11a3a68e050b0695111294c10c87"
+            "hash": "a0db531b280f46da5b1ed93d47eca1c2649ceac9acb5433865534208608115f0"
         }
     },
     "shortcuts": [
