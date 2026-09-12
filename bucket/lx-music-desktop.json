@@ -1,12 +1,12 @@
 {
-    "version": "2.12.2",
+    "version": "2.12.4",
     "description": "音乐播放器",
     "homepage": "https://github.com/lyswhut/lx-music-desktop/",
     "license": "Apache-2.0 license",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.2/lx-music-desktop-v2.12.2-win_x64-green.7z",
-            "hash": "md5:bcb3d63d6bffd8f575bd14d849587b59"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.4/lx-music-desktop-v2.12.4-win_x64-green.7z",
+            "hash": "md5:4536c1764a111a72f0ffd1b6bc26b291"
         }
     },
     "bin": "lx-music-desktop.exe",
