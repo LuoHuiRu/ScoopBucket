@@ -1,14 +1,14 @@
 {
-    "version": "2.1.5",
+    "version": "2.1.6",
     "description": "Open Source Continuous File Synchronization.",
     "homepage": "https://syncthing.net/",
     "license": "MPL-2.0",
     "notes": "To start syncthing automatically, use a method described at https://github.com/syncthing/docs/blob/main/users/autostart.rst#windows",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/syncthing/syncthing/releases/download/v2.1.5/syncthing-windows-amd64-v2.1.5.zip",
-            "hash": "39571e4d0900c2a2cab14c0b170f49751340a869e49734ccc8079d9b98a7974b",
-            "extract_dir": "syncthing-windows-amd64-v2.1.5"
+            "url": "https://github.com/syncthing/syncthing/releases/download/v2.1.6/syncthing-windows-amd64-v2.1.6.zip",
+            "hash": "589098269cabb9a5a1703a934305b4153609d7623e978e1c94f0f49d77ae5e9f",
+            "extract_dir": "syncthing-windows-amd64-v2.1.6"
         }
     },
     "pre_install": [
