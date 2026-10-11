@@ -1,5 +1,5 @@
 {
-    "version": "6.66.5",
+    "version": "6.66.6",
     "description": "这是一个关于office非常实用的小软件，里面包含了许多常用的小功能。",
     "homepage": "https://www.wodeabc.com/article/show/8002027",
     "license": "武汉市核烁科技有限公司",
@@ -14,8 +14,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_66_5.exe#/dl.7z",
-            "hash": "sha512:7149b33a2f0ef3a144a83577ab65469d0d89cf98fe1aa2448500a25a6229ccefd45cd67eca292dc70e4123d92929b9b583eec619eed809d28a4508e5b0323148"
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_66_6.exe#/dl.7z",
+            "hash": "sha512:ccca68dab9cc57f9cfdd4ecdbc3a328a395c25eca6d5f551aaa9ea7631f47585fb3a3fcf186b1f27fa24f879cd64f914698fc57858d6567df6488514f92d02dc"
         }
     },
     "pre_install": [
