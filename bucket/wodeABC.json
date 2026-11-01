@@ -15,7 +15,7 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_66_6.exe#/dl.7z",
-            "hash": "sha512:ccca68dab9cc57f9cfdd4ecdbc3a328a395c25eca6d5f551aaa9ea7631f47585fb3a3fcf186b1f27fa24f879cd64f914698fc57858d6567df6488514f92d02dc"
+            "hash": "sha512:450ccef19ff6a23a04e6ef3fda9e9717754c22b9ae0b975f97b1247e55ee9724b6f8e2250f5089dfdfea52802484ae98d195a1279801adbca427965bb35965af"
         }
     },
     "pre_install": [
